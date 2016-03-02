@@ -1,0 +1,107 @@
+!SESSION 2016-03-02 05:41:56.897 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.version=1.7.0_80
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.cpp.product
+
+!ENTRY org.eclipse.egit.core 4 0 2016-03-02 05:50:46.110
+!MESSAGE Failed to cache RepositoryMapping
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/STM32Cube_FW_F4_V1.11.0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:221)
+	at org.eclipse.core.internal.resources.Resource.setSessionProperty(Resource.java:1899)
+	at org.eclipse.egit.core.project.GitProjectData.map(GitProjectData.java:516)
+	at org.eclipse.egit.core.project.GitProjectData.remapAll(GitProjectData.java:471)
+	at org.eclipse.egit.core.project.GitProjectData.setRepositoryMappings(GitProjectData.java:315)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:125)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2016-03-02 05:50:46.180
+!MESSAGE Resource '/STM32Cube_FW_F4_V1.11.0' is not open.
+
+!ENTRY org.eclipse.team.core 4 372 2016-03-02 05:50:46.306
+!MESSAGE Resource '/STM32Cube_FW_F4_V1.11.0' is not open.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/STM32Cube_FW_F4_V1.11.0' is not open.
+	at org.eclipse.core.internal.resources.Project.checkAccessible(Project.java:150)
+	at org.eclipse.core.internal.resources.Resource.checkAccessibleAndLocal(Resource.java:221)
+	at org.eclipse.core.internal.resources.Resource.getPersistentProperty(Resource.java:1204)
+	at org.eclipse.team.core.RepositoryProvider.map(RepositoryProvider.java:99)
+	at org.eclipse.egit.core.op.ConnectProviderOperation.execute(ConnectProviderOperation.java:154)
+	at org.eclipse.egit.core.internal.job.JobUtil$1.run(JobUtil.java:53)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 372 2016-03-02 05:50:46.306
+!MESSAGE Resource '/STM32Cube_FW_F4_V1.11.0' is not open.
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-02 05:51:05.576
+!MESSAGE Indexed 'display' (124 sources, 197 headers) in 18 sec: 20,082 declarations; 104,451 references; 6 unresolved inclusions; 238 syntax errors; 20,476 unresolved names (14%)
+
+!ENTRY org.eclipse.core.resources 4 2 2016-03-02 10:14:08.624
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.core.resources".
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/display/Debug/Middlewares/ST/STM32_USB_Host_Library/Class/AUDIO/Src' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at fr.ac6.mcu.ide.process.makefile.MakefileGenerator.generateDependencies(MakefileGenerator.java:606)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPostbuildGeneration(CommonBuilder.java:856)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:767)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-03-02 10:14:08.624
+!MESSAGE Resource '/display/Debug/Middlewares/ST/STM32_USB_Host_Library/Class/AUDIO/Src' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-03-02 10:14:08.624
+!MESSAGE Resource '/display/Debug/Middlewares/ST/STM32_USB_Host_Library/Class/AUDIO/Src' does not exist.
+
+!ENTRY org.eclipse.core.resources 4 75 2016-03-02 10:14:08.831
+!MESSAGE Errors occurred during the build.
+!SUBENTRY 1 org.eclipse.cdt.managedbuilder.core 4 75 2016-03-02 10:14:08.831
+!MESSAGE Errors running builder 'CDT Builder' on project 'display'.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Resource '/display/Debug/Middlewares/ST/STM32_USB_Host_Library/Class/AUDIO/Src' does not exist.
+	at org.eclipse.core.internal.resources.Resource.checkExists(Resource.java:341)
+	at org.eclipse.core.internal.resources.Resource.checkAccessible(Resource.java:215)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:266)
+	at org.eclipse.core.internal.resources.Container.members(Container.java:249)
+	at fr.ac6.mcu.ide.process.makefile.MakefileGenerator.generateDependencies(MakefileGenerator.java:606)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.performPostbuildGeneration(CommonBuilder.java:856)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:767)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:510)
+	at org.eclipse.cdt.managedbuilder.internal.core.CommonBuilder.build(CommonBuilder.java:459)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:734)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.resources.Workspace.buildInternal(Workspace.java:496)
+	at org.eclipse.core.internal.resources.Workspace.build(Workspace.java:405)
+	at org.eclipse.ui.actions.GlobalBuildAction$1.run(GlobalBuildAction.java:180)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2016-03-02 10:14:08.831
+!MESSAGE Resource '/display/Debug/Middlewares/ST/STM32_USB_Host_Library/Class/AUDIO/Src' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 368 2016-03-02 10:14:08.831
+!MESSAGE Resource '/display/Debug/Middlewares/ST/STM32_USB_Host_Library/Class/AUDIO/Src' does not exist.
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-03-02 10:20:21.162
+!MESSAGE Indexed 'display_cpp' (107 sources, 179 headers) in 13.5 sec: 17,084 declarations; 91,655 references; 3 unresolved inclusions; 234 syntax errors; 18,693 unresolved names (15%)

@@ -1,0 +1,47 @@
+/**
+  ******************************************************************************
+  * @file    main.c
+  * @author  Ac6
+  * @version V1.0
+  * @date    01-December-2013
+  * @brief   Default main function.
+  ******************************************************************************
+*/
+
+
+#include "stm32f4xx.h"
+#include "stm32f429i_discovery.h"
+
+#include "cmsis_os.h"
+#include "stm32f429i_discovery_lcd.h"
+#include "lcd_log.h"
+			
+void threadFunc( void * arg );
+
+int main(void)
+{
+	HAL_Init();
+
+	BSP_LED_Init(LED3);
+	BSP_LED_Init(LED4);
+
+	SystemClock_Config();
+
+	BSP_PB_Init( BUTTON_KEY, BUTTON_MODE_EXTI );
+
+	BSP_LCD_Init();
+	LCD_LOG_Init();
+
+	LCD_UsrLog( "Hello!" );
+	LCD_UsrLog( "I\m alive!" );
+
+	osThreadDef( threadName, threadFunc, osPriorityNormal, 0, 1024 );
+	osThreadId id = osThreadCreate( osThread( threadName ), 0);
+
+	osKernelStart();
+}
+
+void threadFunc( void * arg )
+{
+	for( ;; );
+}
