@@ -1,0 +1,32 @@
+
+#include "sb_hse.hpp"
+
+namespace SB
+{
+Hse::Hse()
+{
+
+}
+
+Hse::~Hse()
+{
+
+}
+
+bool Hse::setEnabled( bool en )
+{
+
+}
+
+bool Hse::enabled()
+{
+
+}
+
+int Hse::type() const
+{
+
+}
+
+}
+

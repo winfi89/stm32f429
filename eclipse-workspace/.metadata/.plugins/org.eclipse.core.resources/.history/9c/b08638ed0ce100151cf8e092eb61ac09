@@ -1,0 +1,18 @@
+
+#include "sb_mcu.hpp"
+
+Mcu::Mcu()
+{
+
+}
+
+Mcu::~Mcu()
+{
+
+}
+
+Mcu::Mcu * Mcu::signleton()
+{
+
+}
+

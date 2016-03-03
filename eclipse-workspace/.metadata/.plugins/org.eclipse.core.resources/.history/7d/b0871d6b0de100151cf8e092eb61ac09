@@ -1,0 +1,26 @@
+
+#ifndef __SB_CLK_SRC_H_
+#define __SB_CLK_SRC_H_
+
+namespace SB
+{
+
+class ClkSrc
+{
+protected:
+	ClkSrc();
+public:
+	virtual ~ClkSrc();
+
+	bool setEnabled( bool en );
+	bool enabled();
+};
+
+
+}
+
+
+
+#endif
+
+

@@ -1,0 +1,9 @@
+
+#include "sb_mcu.h"
+
+extern "C" void mainCpp( void )
+{
+    SB::Mcu & mcu = SB::Mcu::singleton();
+    return;
+}
+

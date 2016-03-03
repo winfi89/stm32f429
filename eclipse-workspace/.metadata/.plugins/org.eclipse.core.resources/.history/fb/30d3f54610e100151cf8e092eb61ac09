@@ -1,0 +1,31 @@
+
+#include "sb_hse.hpp"
+#include "stm32f429xx.h"
+
+namespace SB
+{
+Hse::Hse()
+{
+}
+
+Hse::~Hse()
+{
+}
+
+bool Hse::setEnabled( bool en )
+{
+	RCC->CR;
+}
+
+bool Hse::enabled()
+{
+
+}
+
+int Hse::type() const
+{
+	return static_cast<int>( CLKSRC::HSE );
+}
+
+}
+

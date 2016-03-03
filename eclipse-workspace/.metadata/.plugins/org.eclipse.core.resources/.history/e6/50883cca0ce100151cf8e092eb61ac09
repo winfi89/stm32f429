@@ -1,0 +1,8 @@
+
+#include "sb_mcu.hpp"
+
+Mcu();
+~Mcu();
+Mcu * signleton();
+
+
