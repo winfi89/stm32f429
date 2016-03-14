@@ -1,0 +1,49 @@
+/**
+  ******************************************************************************
+  * @file    main.c
+  * @author  Ac6
+  * @version V1.0
+  * @date    01-December-2013
+  * @brief   Default main function.
+  ******************************************************************************
+*/
+
+
+#include "stm32f4xx.h"
+#include "stm32f429i_discovery.h"
+			
+
+int main(void)
+{
+
+	for(;;);
+}
+
+
+
+
+
+#define BUFFER_SIZE         ((uint32_t)0x0100)
+#define WRITE_READ_ADDR     ((uint32_t)0x0800)
+#define REFRESH_COUNT       ((uint32_t)0x0569)   /* SDRAM refresh counter (90MHz SD clock) */
+
+SDRAM_HandleTypeDef hsdram;
+FMC_SDRAM_TimingTypeDef SDRAM_Timing;
+FMC_SDRAM_CommandTypeDef command;
+
+/* Read/Write Buffers */
+uint32_t aTxBuffer[BUFFER_SIZE];
+uint32_t aRxBuffer[BUFFER_SIZE];
+
+/* Status variables */
+__IO uint32_t uwWriteReadStatus = 0;
+
+/* Counter index */
+uint32_t uwIndex = 0;
+
+/* Private function prototypes -----------------------------------------------*/
+static void SystemClock_Config(void);
+static void Error_Handler(void);
+static void SDRAM_Initialization_Sequence(SDRAM_HandleTypeDef *hsdram, FMC_SDRAM_CommandTypeDef *Command);
+static void Fill_Buffer(uint32_t *pBuffer, uint32_t uwBufferLenght, uint32_t uwOffset);
+
