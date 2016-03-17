@@ -1,0 +1,14 @@
+
+#ifndef __ATAGS_H_
+#define __ATAGS_H_
+
+#include <inttypes.h>
+
+void initAtags( void );
+
+
+
+#endif
+
+
+

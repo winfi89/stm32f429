@@ -1,0 +1,11 @@
+
+#ifndef __ATAGS_H_
+#define __ATAGS_H_
+
+void initAtags( void );
+
+
+#endif
+
+
+

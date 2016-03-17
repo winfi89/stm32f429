@@ -1,0 +1,19 @@
+
+#include "atags.h"
+#include "atag_defs.h"
+
+void initAtags( void )
+{
+	extern uint32_t * _sccmram;
+	uint32_t * tgs = _sccmram;
+
+}
+
+uint32_t * tags( void )
+{
+	extern uint32_t * _sccmram;
+	uint32_t * res = _sccmram;
+	return res;
+}
+
+
