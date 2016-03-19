@@ -100,6 +100,11 @@ int main(void)
   BSP_LED_Init(LED3);
   BSP_LED_Init(LED4);
   
+  // Turn LEDs off to indicate start of bootloader
+  // and to reset previous state.
+  BSP_LED_Off(LED3);
+  BSP_LED_Off(LED4);
+
   /* Configure the system clock to 180 MHz */
   SystemClock_Config();
   
@@ -384,6 +389,12 @@ static void start_kernel(void)
 	//*RCC_APB1ENR = val;
 
 	initAtags();
+
+	// Turn both LEDs on just before kernel start to indicate
+	// completion of bootloader.
+    BSP_LED_On(LED3);
+    BSP_LED_On(LED4);
+
 	kernel(0, ~0UL, atags() );
 }
 
