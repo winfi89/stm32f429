@@ -38,7 +38,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include "atags.h"
+#include "dev_tree_handler.h"
 
 /** @addtogroup STM32F4xx_HAL_Examples
   * @{
@@ -388,14 +388,12 @@ static void start_kernel(void)
 	//val |= 1 << 3;
 	//*RCC_APB1ENR = val;
 
-	initAtags();
-
 	// Turn both LEDs on just before kernel start to indicate
 	// completion of bootloader.
     BSP_LED_On(LED3);
     BSP_LED_On(LED4);
 
-	kernel(0, ~0UL, atags() );
+	kernel(0, ~0UL, devTreeWrite() );
 }
 
 
