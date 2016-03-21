@@ -1,4 +1,4 @@
-08:52:25 **** Build of configuration Debug for project bootloader ****
+07:35:55 **** Build of configuration Debug for project bootloader ****
 make all 
 Building file: ../startup/startup_stm32f429xx.s
 Invoking: MCU GCC Assembler
@@ -627,5 +627,8 @@ Generating binary and Printing size information:
 arm-none-eabi-objcopy -O binary "bootloader.elf" "bootloader.bin"
 arm-none-eabi-size "bootloader.elf"
    text	   data	    bss	    dec	    hex	filename
-   8960	   4460	   3784	  17204	   4334	bootloader.elf
+   8956	   4460	   3784	  17200	   4330	bootloader.elf
  
+07:53:29 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+make: Nothing to be done for `all'.
