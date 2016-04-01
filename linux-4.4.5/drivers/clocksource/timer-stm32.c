@@ -56,7 +56,8 @@ static int stm32_clock_event_set_periodic(struct clock_event_device *evtdev)
 		container_of(evtdev, struct stm32_clock_event_ddata, evtdev);
 	void *base = data->base;
 
-	writel_relaxed(data->periodic_top, base + TIM_ARR);
+	//writel_relaxed(data->periodic_top, base + TIM_ARR);
+    writel_relaxed(500000, base + TIM_ARR);
 	writel_relaxed(TIM_CR1_ARPE | TIM_CR1_CEN, base + TIM_CR1);
 	return 0;
 }

@@ -54,11 +54,11 @@
 
 	chosen {
 		bootargs = "root=/dev/ram rdinit=/linuxrc";
-		stdout-path = "serial0:115200n8";
+		stdout-path = "serial0:9600n8";
 	};
 
 	memory {
-		reg = <0x90000000 0x800000>;
+		reg = <0xD0000000 0x800000>;
 	};
 
 	aliases {
