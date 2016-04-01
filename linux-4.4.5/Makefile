@@ -5,7 +5,7 @@ EXTRAVERSION =
 NAME = Blurry Fish Butt
 
 ARCH=arm
-CROSS_COMPILE=/home/z80/programs/sw4stm32/plugins/fr.ac6.mcu.externaltools.arm-none.linux32_1.7.0.201602151102/tools/compiler/bin/arm-none-eabi-
+CROSS_COMPILE=/home/z80/projects/stm32f429-linux/arm-2010q1/bin/arm-uclinuxeabi-
 
 # *DOCUMENTATION*
 # To see a list of typical targets execute "make help"
