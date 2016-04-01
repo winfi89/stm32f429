@@ -15,6 +15,6 @@ LIB_PATH=$BASE_PATH/arm-uclinuxeabi/libc/usr/lib
 CROSS_COMPILE=arm-uclinuxeabi-
 export PATH=$COMP_PATH:$INC_PATH:$LIB_PATH:$BASE_PATH/libc/usr:$PATH
 
-make -C $busybox_src ARCH=arm CROSS_COMPILE=$CROSS_COMPILE O=$busybox_build oldconfig 
+make -C $busybox_src O=$busybox_build oldconfig 
 make -C $busybox_build ARCH=arm CROSS_COMPILE=$CROSS_COMPILE CONFIG_PREFIX=$busybox_romfs install
 
