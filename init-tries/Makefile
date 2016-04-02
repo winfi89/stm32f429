@@ -12,8 +12,14 @@ TOOLCHAIN_PATH := "/home/z80/projects/stm32f429-linux/arm-2010q1"
 
 GCC := "$(TOOLCHAIN_PATH)/bin/arm-uclinuxeabi-gcc"
 
-all:
-	init
+main:
+	$(GCC) -static src/main.c -o main
 
-init:
-	$(GCC) -static src/main.c -o init
+all:
+	main
+
+clean:
+	rm -rf main main.gdb
+
+help:
+	@echo "GTFO!"
