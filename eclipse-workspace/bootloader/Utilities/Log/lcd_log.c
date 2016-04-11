@@ -240,6 +240,7 @@ void LCD_LOG_ClearTextZone(void)
   * @param  f: output file pointer
   * @retval None
  */
+/*
 LCD_LOG_PUTCHAR
 {
   
@@ -310,7 +311,7 @@ LCD_LOG_PUTCHAR
   }
   return ch;
 }
-  
+  */
 /**
   * @brief  Update the text area display
   * @param  None

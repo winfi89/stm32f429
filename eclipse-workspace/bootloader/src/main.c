@@ -39,6 +39,7 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "dev_tree_handler.h"
+#include "uart_ctrl.h"
 
 /** @addtogroup STM32F4xx_HAL_Examples
   * @{
@@ -107,7 +108,12 @@ int main(void)
 
   /* Configure the system clock to 180 MHz */
   SystemClock_Config();
+  uartInit();
   
+  printf( "Initializing SDRAM\r\n" );
+  while ( 1 )
+	  printf( "Hello World!\r\n" );
+
   /*##-1- Configure the SDRAM device #########################################*/
   /* SDRAM device configuration */ 
   hsdram.Instance = FMC_SDRAM_DEVICE;
@@ -151,6 +157,7 @@ int main(void)
     
   /*##-2- SDRAM memory read/write access #####################################*/  
   
+  printf( "Filling SDRAM\r\n" );
   /* Fill the buffer to write */
   Fill_Buffer(aTxBuffer, BUFFER_SIZE, 0xA244250F);   
   
@@ -160,14 +167,16 @@ int main(void)
     *(__IO uint32_t*) (SDRAM_BANK_ADDR + WRITE_READ_ADDR + 4*uwIndex) = aTxBuffer[uwIndex];
   }    
   
+  printf( "Reading back SDRAM data\r\n" );
   /* Read back data from the SDRAM memory */
   for (uwIndex = 0; uwIndex < BUFFER_SIZE; uwIndex++)
   {
-    aRxBuffer[uwIndex] = *(__IO uint32_t*) (SDRAM_BANK_ADDR + WRITE_READ_ADDR + 4*uwIndex);
-   } 
+	  aRxBuffer[uwIndex] = *(__IO uint32_t*) (SDRAM_BANK_ADDR + WRITE_READ_ADDR + 4*uwIndex);
+  }
 
   /*##-3- Checking data integrity ############################################*/    
 
+  printf( "Checking data integrity\r\n" );
   for (uwIndex = 0; (uwIndex < BUFFER_SIZE) && (uwWriteReadStatus == 0); uwIndex++)
   {
     if (aRxBuffer[uwIndex] != aTxBuffer[uwIndex])
@@ -379,6 +388,7 @@ void assert_failed(uint8_t* file, uint32_t line)
 
 static void start_kernel(void)
 {
+	printf( "Getting Kernel address\r\n" );
 	void (*kernel)(uint32_t reserved, uint32_t mach, uint32_t dt) = (void (*)(uint32_t, uint32_t, uint32_t))(0x08008000 | 1);
 
 	//volatile uint32_t *RCC_APB1ENR = (void *)(RCC_BASE + 0x40);
@@ -393,6 +403,8 @@ static void start_kernel(void)
     BSP_LED_On(LED3);
     BSP_LED_On(LED4);
 
+    printf( "Preparing device tree\r\n" );
+    printf( "Calling Linux Kernel\r\n" );
 	kernel(0, ~0UL, devTreeWrite() );
 }
 

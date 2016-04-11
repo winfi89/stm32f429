@@ -1,0 +1,48 @@
+
+#include "uart_ctrl.h"
+
+#include "stm32f4xx_hal.h"
+#include "stm32f429i_discovery.h"
+
+UART_HandleTypeDef UartHandle;
+
+int __io_putchar(int ch)
+{
+	uartPutch( (uint8_t)ch );
+}
+
+int __io_getchar(void)
+{
+
+}
+
+void uartInit( void )
+{
+	UartHandle.Instance        = USART1;
+
+	UartHandle.Init.BaudRate     = 9600;
+	UartHandle.Init.WordLength   = UART_WORDLENGTH_8B;
+	UartHandle.Init.StopBits     = UART_STOPBITS_1;
+	UartHandle.Init.Parity       = UART_PARITY_NONE;
+	UartHandle.Init.HwFlowCtl    = UART_HWCONTROL_NONE;
+	UartHandle.Init.Mode         = UART_MODE_TX_RX;
+	UartHandle.Init.OverSampling = UART_OVERSAMPLING_16;
+
+	if(HAL_UART_DeInit(&UartHandle) != HAL_OK)
+	{
+		Error_Handler();
+	}
+	if(HAL_UART_Init(&UartHandle) != HAL_OK)
+	{
+		Error_Handler();
+	}
+
+}
+
+void uartPutch( uint8_t ch )
+{
+	HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK);
+}
+
+
+

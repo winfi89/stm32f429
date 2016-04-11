@@ -1,0 +1,16 @@
+
+#include "uart_ctrl.h"
+
+
+void uartInit( void )
+{
+
+}
+
+void uartPutch( uint8_t ch )
+{
+
+}
+
+
+

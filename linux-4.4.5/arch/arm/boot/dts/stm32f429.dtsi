@@ -157,7 +157,7 @@
 			reg = <0x40011000 0x400>;
 			interrupts = <37>;
 			clocks = <&rcc 0 164>;
-			status = "disabled";
+			status = "enabled";
 		};
 
 		usart6: serial@40011400 {

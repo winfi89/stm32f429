@@ -70,6 +70,6 @@
 	clock-frequency = <8000000>;
 };
 
-&usart1 {
+/*&usart1 { 
 	status = "okay";
-};
+};*/

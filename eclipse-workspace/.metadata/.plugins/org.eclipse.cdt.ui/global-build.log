@@ -632,3 +632,419 @@ arm-none-eabi-size "bootloader.elf"
 07:53:29 **** Incremental Build of configuration Debug for project bootloader ****
 make all 
 make: Nothing to be done for `all'.
+07:34:37 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../src/dev_tree_handler.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/dev_tree_handler.d" -MT"src/dev_tree_handler.o" -o "src/dev_tree_handler.o" "../src/dev_tree_handler.c"
+../src/dev_tree_handler.c: In function 'devTreeWrite':
+../src/dev_tree_handler.c:7:17: error: conflicting types for 'dev_tree'
+  extern uint8_t dev_tree[];
+                 ^
+In file included from ../src/dev_tree_handler.c:3:0:
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc/dev_tree.h:7:22: note: previous definition of 'dev_tree' was here
+ static const uint8_t dev_tree[] = { 0xd0, 0x0d, 0xfe, 0xed, 0x00, 0x00, 0x0d, 0x07, 0x00
+                      ^
+../src/dev_tree_handler.c:8:13: error: conflicting type qualifiers for 'dev_tree_sz'
+  extern int dev_tree_sz;
+             ^
+In file included from ../src/dev_tree_handler.c:3:0:
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc/dev_tree.h:286:18: note: previous definition of 'dev_tree_sz' was here
+ static const int dev_tree_sz = 3335;
+                  ^
+make: *** [src/dev_tree_handler.o] Error 1
+07:34:41 **** Incremental Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+07:34:55 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../src/dev_tree_handler.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/dev_tree_handler.d" -MT"src/dev_tree_handler.o" -o "src/dev_tree_handler.o" "../src/dev_tree_handler.c"
+Finished building: ../src/dev_tree_handler.c
+ 
+Building target: bootloader.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "bootloader.elf" @"objects.list"  
+Finished building target: bootloader.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "bootloader.elf" "bootloader.bin"
+arm-none-eabi-size "bootloader.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8956	   4460	   3784	  17200	   4330	bootloader.elf
+ 
+07:35:00 **** Incremental Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+07:35:18 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+make: Nothing to be done for `all'.
+23:54:50 **** Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../src/uart_ctrl.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/uart_ctrl.d" -MT"src/uart_ctrl.o" -o "src/uart_ctrl.o" "../src/uart_ctrl.c"
+../src/uart_ctrl.c: In function 'uartInit':
+../src/uart_ctrl.c:33:3: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+   Error_Handler();
+   ^
+../src/uart_ctrl.c: In function 'uartPutch':
+../src/uart_ctrl.c:44:58: warning: value computed is not used [-Wunused-value]
+  HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK);
+                                                          ^
+../src/uart_ctrl.c:44:67: error: expected ';' before ')' token
+  HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK);
+                                                                   ^
+../src/uart_ctrl.c:44:67: error: expected statement before ')' token
+../src/uart_ctrl.c: In function '__io_putchar':
+../src/uart_ctrl.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/uart_ctrl.o] Error 1
+23:54:54 **** Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+23:55:40 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../src/uart_ctrl.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/uart_ctrl.d" -MT"src/uart_ctrl.o" -o "src/uart_ctrl.o" "../src/uart_ctrl.c"
+../src/uart_ctrl.c: In function 'uartInit':
+../src/uart_ctrl.c:33:3: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+   Error_Handler();
+   ^
+../src/uart_ctrl.c: In function 'uartPutch':
+../src/uart_ctrl.c:44:2: error: unknown type name 'BOOL'
+  BOOL res = HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK) ? 0 : 1;
+  ^
+../src/uart_ctrl.c:44:78: error: expected ',' or ';' before ')' token
+  BOOL res = HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK) ? 0 : 1;
+                                                                              ^
+../src/uart_ctrl.c:44:7: warning: unused variable 'res' [-Wunused-variable]
+  BOOL res = HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK) ? 0 : 1;
+       ^
+../src/uart_ctrl.c: In function '__io_putchar':
+../src/uart_ctrl.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/uart_ctrl.o] Error 1
+23:55:42 **** Incremental Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+23:55:52 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../src/uart_ctrl.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/uart_ctrl.d" -MT"src/uart_ctrl.o" -o "src/uart_ctrl.o" "../src/uart_ctrl.c"
+../src/uart_ctrl.c: In function 'uartInit':
+../src/uart_ctrl.c:33:3: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+   Error_Handler();
+   ^
+../src/uart_ctrl.c: In function 'uartPutch':
+../src/uart_ctrl.c:44:2: error: unknown type name 'BOOL'
+  BOOL res = (HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK) ? 0 : 1;
+  ^
+../src/uart_ctrl.c:44:7: warning: unused variable 'res' [-Wunused-variable]
+  BOOL res = (HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK) ? 0 : 1;
+       ^
+../src/uart_ctrl.c: In function '__io_putchar':
+../src/uart_ctrl.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/uart_ctrl.o] Error 1
+23:55:53 **** Incremental Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+23:56:29 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../src/uart_ctrl.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/uart_ctrl.d" -MT"src/uart_ctrl.o" -o "src/uart_ctrl.o" "../src/uart_ctrl.c"
+../src/uart_ctrl.c: In function 'uartInit':
+../src/uart_ctrl.c:33:3: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+   Error_Handler();
+   ^
+../src/uart_ctrl.c: In function 'uartPutch':
+../src/uart_ctrl.c:44:2: error: unknown type name 'BOOL'
+  BOOL res = (HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK) ? 0 : 1;
+  ^
+../src/uart_ctrl.c:44:7: warning: unused variable 'res' [-Wunused-variable]
+  BOOL res = (HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK) ? 0 : 1;
+       ^
+../src/uart_ctrl.c: In function '__io_putchar':
+../src/uart_ctrl.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+make: *** [src/uart_ctrl.o] Error 1
+23:56:31 **** Incremental Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+23:57:02 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../src/uart_ctrl.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/uart_ctrl.d" -MT"src/uart_ctrl.o" -o "src/uart_ctrl.o" "../src/uart_ctrl.c"
+../src/uart_ctrl.c: In function 'uartInit':
+../src/uart_ctrl.c:33:3: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+   Error_Handler();
+   ^
+../src/uart_ctrl.c: In function 'uartPutch':
+../src/uart_ctrl.c:44:10: warning: unused variable 'res' [-Wunused-variable]
+  uint8_t res = (HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK) ? 0 : 1;
+          ^
+../src/uart_ctrl.c: In function '__io_putchar':
+../src/uart_ctrl.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/uart_ctrl.c
+ 
+Building target: bootloader.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "bootloader.elf" @"objects.list"  
+Utilities/Log/lcd_log.o: In function `__io_putchar':
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug/../Utilities/Log/lcd_log.c:244: multiple definition of `__io_putchar'
+src/uart_ctrl.o:/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug/../src/uart_ctrl.c:10: first defined here
+collect2: error: ld returned 1 exit status
+make: *** [bootloader.elf] Error 1
+23:57:06 **** Incremental Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+23:58:37 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../Utilities/Log/lcd_log.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"Utilities/Log/lcd_log.d" -MT"Utilities/Log/lcd_log.o" -o "Utilities/Log/lcd_log.o" "../Utilities/Log/lcd_log.c"
+Finished building: ../Utilities/Log/lcd_log.c
+ 
+Building target: bootloader.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "bootloader.elf" @"objects.list"  
+Finished building target: bootloader.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "bootloader.elf" "bootloader.bin"
+arm-none-eabi-size "bootloader.elf"
+   text	   data	    bss	    dec	    hex	filename
+   8956	   4460	   3784	  17200	   4330	bootloader.elf
+ 
+23:58:39 **** Incremental Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+00:00:32 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'start_kernel':
+../src/main.c:398:18: warning: passing argument 3 of 'kernel' makes integer from pointer without a cast [-Wint-conversion]
+  kernel(0, ~0UL, devTreeWrite() );
+                  ^
+../src/main.c:398:18: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void *'
+Finished building: ../src/main.c
+ 
+Building target: bootloader.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "bootloader.elf" @"objects.list"  
+src/uart_ctrl.o: In function `uartInit':
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug/../src/uart_ctrl.c:33: undefined reference to `Error_Handler'
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug/../src/uart_ctrl.c:37: undefined reference to `Error_Handler'
+collect2: error: ld returned 1 exit status
+make: *** [bootloader.elf] Error 1
+00:00:34 **** Incremental Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+00:01:21 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'start_kernel':
+../src/main.c:400:18: warning: passing argument 3 of 'kernel' makes integer from pointer without a cast [-Wint-conversion]
+  kernel(0, ~0UL, devTreeWrite() );
+                  ^
+../src/main.c:400:18: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void *'
+Finished building: ../src/main.c
+ 
+Building file: ../src/uart_ctrl.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/uart_ctrl.d" -MT"src/uart_ctrl.o" -o "src/uart_ctrl.o" "../src/uart_ctrl.c"
+../src/uart_ctrl.c: In function 'uartInit':
+../src/uart_ctrl.c:31:10: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+  uint8_t res = (HAL_UART_DeInit(&UartHandle) != HAL_OK) ? 0 : 1;
+          ^
+../src/uart_ctrl.c: In function 'uartPutch':
+../src/uart_ctrl.c:37:10: warning: unused variable 'res' [-Wunused-variable]
+  uint8_t res = (HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK) ? 0 : 1;
+          ^
+../src/uart_ctrl.c: In function '__io_putchar':
+../src/uart_ctrl.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/uart_ctrl.c
+ 
+Building target: bootloader.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "bootloader.elf" @"objects.list"  
+Finished building target: bootloader.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "bootloader.elf" "bootloader.bin"
+arm-none-eabi-size "bootloader.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18204	   5504	   3908	  27616	   6be0	bootloader.elf
+ 
+00:01:23 **** Incremental Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+00:03:25 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'start_kernel':
+../src/main.c:406:18: warning: passing argument 3 of 'kernel' makes integer from pointer without a cast [-Wint-conversion]
+  kernel(0, ~0UL, devTreeWrite() );
+                  ^
+../src/main.c:406:18: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void *'
+Finished building: ../src/main.c
+ 
+Building target: bootloader.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "bootloader.elf" @"objects.list"  
+Finished building target: bootloader.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "bootloader.elf" "bootloader.bin"
+arm-none-eabi-size "bootloader.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18412	   5504	   3908	  27824	   6cb0	bootloader.elf
+ 
+00:03:27 **** Incremental Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+06:46:22 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+make: Nothing to be done for `all'.
+06:48:19 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+make: Nothing to be done for `all'.
+06:58:00 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../src/uart_ctrl.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/uart_ctrl.d" -MT"src/uart_ctrl.o" -o "src/uart_ctrl.o" "../src/uart_ctrl.c"
+../src/uart_ctrl.c: In function 'uartInit':
+../src/uart_ctrl.c:51:10: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+  uint8_t res = (HAL_UART_DeInit(&UartHandle) != HAL_OK) ? 0 : 1;
+          ^
+../src/uart_ctrl.c: In function 'uartPutch':
+../src/uart_ctrl.c:57:10: warning: unused variable 'res' [-Wunused-variable]
+  uint8_t res = (HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK) ? 0 : 1;
+          ^
+../src/uart_ctrl.c: In function '__io_putchar':
+../src/uart_ctrl.c:12:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../src/uart_ctrl.c
+ 
+Building target: bootloader.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "bootloader.elf" @"objects.list"  
+Finished building target: bootloader.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "bootloader.elf" "bootloader.bin"
+arm-none-eabi-size "bootloader.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18532	   5504	   3908	  27944	   6d28	bootloader.elf
+ 
+06:58:27 **** Incremental Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+07:00:13 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../src/uart_ctrl.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/uart_ctrl.d" -MT"src/uart_ctrl.o" -o "src/uart_ctrl.o" "../src/uart_ctrl.c"
+../src/uart_ctrl.c: In function 'uartInit':
+../src/uart_ctrl.c:52:10: warning: variable 'res' set but not used [-Wunused-but-set-variable]
+  uint8_t res = (HAL_UART_DeInit(&UartHandle) != HAL_OK) ? 0 : 1;
+          ^
+../src/uart_ctrl.c: In function 'uartPutch':
+../src/uart_ctrl.c:58:10: warning: unused variable 'res' [-Wunused-variable]
+  uint8_t res = (HAL_UART_Transmit( &UartHandle, (uint8_t*)&ch, 1, 5000 )!= HAL_OK) ? 0 : 1;
+          ^
+Finished building: ../src/uart_ctrl.c
+ 
+Building target: bootloader.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "bootloader.elf" @"objects.list"  
+Finished building target: bootloader.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "bootloader.elf" "bootloader.bin"
+arm-none-eabi-size "bootloader.elf"
+   text	   data	    bss	    dec	    hex	filename
+  18532	   5504	   3908	  27944	   6d28	bootloader.elf
+ 
+07:00:19 **** Incremental Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+07:00:27 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+make: Nothing to be done for `all'.
+07:11:47 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+make: Nothing to be done for `all'.
+07:36:53 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+Building file: ../src/main.c
+Invoking: MCU GCC Compiler
+/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Debug
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -DSTM32F429ZITx -DSTM32 -DSTM32F429I_DISC1 -DSTM32F4 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F429xx -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/core" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/CMSIS/device" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Log" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Fonts" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ov2640" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/cs43l22" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q256a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis302dl" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lis3dsh" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/lsm303dlhc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/l3gd20" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9325" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/mfxstm32l152" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ft6x06" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/st7735" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/exc7200" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/wm8994" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ts3510" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe811" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/stmpe1600" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/otm8009a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q128a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire480272" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/n25q512a" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ampire640480" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s5k5cag" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/ili9341" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/s25fl512s" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/Components/Common" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/Utilities/STM32F429I-Discovery" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc" -I"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/HAL_Driver/Inc/Legacy" -O0 -g3 -Wall -fmessage-length=0 -ffunction-sections -c -MMD -MP -MF"src/main.d" -MT"src/main.o" -o "src/main.o" "../src/main.c"
+../src/main.c: In function 'start_kernel':
+../src/main.c:408:18: warning: passing argument 3 of 'kernel' makes integer from pointer without a cast [-Wint-conversion]
+  kernel(0, ~0UL, devTreeWrite() );
+                  ^
+../src/main.c:408:18: note: expected 'uint32_t {aka long unsigned int}' but argument is of type 'void *'
+Finished building: ../src/main.c
+ 
+Building target: bootloader.elf
+Invoking: MCU GCC Linker
+arm-none-eabi-gcc -mcpu=cortex-m4 -mthumb -mfloat-abi=hard -mfpu=fpv4-sp-d16 -T"/home/z80/projects/stm32f238.git/eclipse-workspace/bootloader/LinkerScript.ld" -Wl,-Map=output.map -Wl,--gc-sections -lm -o "bootloader.elf" @"objects.list"  
+Finished building target: bootloader.elf
+ 
+make --no-print-directory post-build
+Generating binary and Printing size information:
+arm-none-eabi-objcopy -O binary "bootloader.elf" "bootloader.bin"
+arm-none-eabi-size "bootloader.elf"
+   text	   data	    bss	    dec	    hex	filename
+  16288	   2160	   1756	  20204	   4eec	bootloader.elf
+ 
+07:37:03 **** Incremental Build of configuration Debug for project display ****
+make all 
+make: Nothing to be done for `all'.
+07:37:11 **** Incremental Build of configuration Debug for project bootloader ****
+make all 
+make: Nothing to be done for `all'.
