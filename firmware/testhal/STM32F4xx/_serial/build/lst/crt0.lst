@@ -1,4 +1,4 @@
-ARM GAS  /tmp/cca9lKsp.s 			page 1
+ARM GAS  /tmp/ccmm4KSj.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
   55 0002 00BF     		.section	.text._default_exit,"ax",%progbits
   56              		.align	2
   57              		.p2align 4,,15
-ARM GAS  /tmp/cca9lKsp.s 			page 2
+ARM GAS  /tmp/ccmm4KSj.s 			page 2
 
 
   58              		.weak	_default_exit
@@ -118,7 +118,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  112              		.loc 1 297 0
  113              	@ 297 "../../../os/ports/GCC/ARMCMx/crt0.c" 1
  114 000e BFF36F8F 		isb
-ARM GAS  /tmp/cca9lKsp.s 			page 3
+ARM GAS  /tmp/ccmm4KSj.s 			page 3
 
 
  115              	@ 0 "" 2
@@ -178,7 +178,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  169 0058 9A42     		cmp	r2, r3
  170 005a 0CD2     		bcs	.L12
  171 005c D043     		mvns	r0, r2
-ARM GAS  /tmp/cca9lKsp.s 			page 4
+ARM GAS  /tmp/ccmm4KSj.s 			page 4
 
 
  172 005e 1844     		add	r0, r0, r3
@@ -238,7 +238,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  226              		.loc 1 337 0
  227 00a0 54F8043B 		ldr	r3, [r4], #4
  228              	.LVL19:
-ARM GAS  /tmp/cca9lKsp.s 			page 5
+ARM GAS  /tmp/ccmm4KSj.s 			page 5
 
 
  229 00a4 9847     		blx	r3
@@ -298,7 +298,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  283              		.cfi_endproc
  284              	.LFE3:
  285              		.size	ResetHandler, .-ResetHandler
-ARM GAS  /tmp/cca9lKsp.s 			page 6
+ARM GAS  /tmp/ccmm4KSj.s 			page 6
 
 
  286              		.text
@@ -358,7 +358,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  340 0067 05       		.byte	0x5
  341 0068 ED010000 		.4byte	.LASF8
  342 006c 02       		.uleb128 0x2
-ARM GAS  /tmp/cca9lKsp.s 			page 7
+ARM GAS  /tmp/ccmm4KSj.s 			page 7
 
 
  343 006d 08       		.byte	0x8
@@ -418,7 +418,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  397 00dd 02000000 		.4byte	.LFE2-.LFB2
  398 00e1 01       		.uleb128 0x1
  399 00e2 9C       		.byte	0x9c
-ARM GAS  /tmp/cca9lKsp.s 			page 8
+ARM GAS  /tmp/ccmm4KSj.s 			page 8
 
 
  400 00e3 0A       		.uleb128 0xa
@@ -478,7 +478,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  454 0167 22000000 		.4byte	.LBE4-.LBB4
  455 016b 8A010000 		.4byte	0x18a
  456 016f 0E       		.uleb128 0xe
-ARM GAS  /tmp/cca9lKsp.s 			page 9
+ARM GAS  /tmp/ccmm4KSj.s 			page 9
 
 
  457 0170 747000   		.ascii	"tp\000"
@@ -538,7 +538,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  511 01f9 9C020000 		.4byte	0x29c
  512 01fd 11       		.uleb128 0x11
  513 01fe C4000000 		.4byte	.LVL27
-ARM GAS  /tmp/cca9lKsp.s 			page 10
+ARM GAS  /tmp/ccmm4KSj.s 			page 10
 
 
  514 0202 D1000000 		.4byte	0xd1
@@ -598,7 +598,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  568 0277 97000000 		.4byte	0x97
  569 027b 12       		.uleb128 0x12
  570 027c 96010000 		.4byte	.LASF25
-ARM GAS  /tmp/cca9lKsp.s 			page 11
+ARM GAS  /tmp/ccmm4KSj.s 			page 11
 
 
  571 0280 01       		.byte	0x1
@@ -658,7 +658,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  625 0021 03       		.uleb128 0x3
  626 0022 0E       		.uleb128 0xe
  627 0023 3A       		.uleb128 0x3a
-ARM GAS  /tmp/cca9lKsp.s 			page 12
+ARM GAS  /tmp/ccmm4KSj.s 			page 12
 
 
  628 0024 0B       		.uleb128 0xb
@@ -718,7 +718,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  682 005a 31       		.uleb128 0x31
  683 005b 13       		.uleb128 0x13
  684 005c 11       		.uleb128 0x11
-ARM GAS  /tmp/cca9lKsp.s 			page 13
+ARM GAS  /tmp/ccmm4KSj.s 			page 13
 
 
  685 005d 01       		.uleb128 0x1
@@ -778,7 +778,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  739 0096 13       		.uleb128 0x13
  740 0097 00       		.byte	0
  741 0098 00       		.byte	0
-ARM GAS  /tmp/cca9lKsp.s 			page 14
+ARM GAS  /tmp/ccmm4KSj.s 			page 14
 
 
  742 0099 0B       		.uleb128 0xb
@@ -838,7 +838,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  796 00cf 0F       		.uleb128 0xf
  797 00d0 0B       		.uleb128 0xb
  798 00d1 01       		.byte	0x1
-ARM GAS  /tmp/cca9lKsp.s 			page 15
+ARM GAS  /tmp/ccmm4KSj.s 			page 15
 
 
  799 00d2 55       		.uleb128 0x55
@@ -898,7 +898,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  853 010c 00       		.byte	0
  854 010d 00       		.byte	0
  855 010e 00       		.byte	0
-ARM GAS  /tmp/cca9lKsp.s 			page 16
+ARM GAS  /tmp/ccmm4KSj.s 			page 16
 
 
  856              		.section	.debug_loc,"",%progbits
@@ -958,7 +958,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  910 0086 54       		.byte	0x54
  911 0087 00000000 		.4byte	0
  912 008b 00000000 		.4byte	0
-ARM GAS  /tmp/cca9lKsp.s 			page 17
+ARM GAS  /tmp/ccmm4KSj.s 			page 17
 
 
  913              	.LLST5:
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  967 004c 00000000 		.4byte	0
  968              		.section	.debug_line,"",%progbits
  969              	.Ldebug_line0:
-ARM GAS  /tmp/cca9lKsp.s 			page 18
+ARM GAS  /tmp/ccmm4KSj.s 			page 18
 
 
  970 0000 E1010000 		.section	.debug_str,"MS",%progbits,1
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  987              	.LASF32:
  988 0120 5F646566 		.ascii	"_default_exit\000"
  988      61756C74 
-ARM GAS  /tmp/cca9lKsp.s 			page 19
+ARM GAS  /tmp/ccmm4KSj.s 			page 19
 
 
  988      5F657869 
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  1010      20696E74 
  1010      00
  1011              	.LASF9:
-ARM GAS  /tmp/cca9lKsp.s 			page 20
+ARM GAS  /tmp/ccmm4KSj.s 			page 20
 
 
  1012 01c4 6C6F6E67 		.ascii	"long long unsigned int\000"
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  1034              	.LASF4:
  1035 0299 6C6F6E67 		.ascii	"long int\000"
  1035      20696E74 
-ARM GAS  /tmp/cca9lKsp.s 			page 21
+ARM GAS  /tmp/ccmm4KSj.s 			page 21
 
 
  1035      00
@@ -1228,20 +1228,20 @@ ARM GAS  /tmp/cca9lKsp.s 			page 1
  1045      5F656E64 
  1045      5F5F00
  1046              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.2.1 20151202 (release) [ARM/embedded-5-bran
-ARM GAS  /tmp/cca9lKsp.s 			page 22
+ARM GAS  /tmp/ccmm4KSj.s 			page 22
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 crt0.c
-     /tmp/cca9lKsp.s:20     .text.__early_init:00000000 $t
-     /tmp/cca9lKsp.s:26     .text.__early_init:00000000 __early_init
-     /tmp/cca9lKsp.s:37     .text.__late_init:00000000 $t
-     /tmp/cca9lKsp.s:43     .text.__late_init:00000000 __late_init
-     /tmp/cca9lKsp.s:56     .text._default_exit:00000000 $t
-     /tmp/cca9lKsp.s:62     .text._default_exit:00000000 _default_exit
-     /tmp/cca9lKsp.s:75     .text.ResetHandler:00000000 $t
-     /tmp/cca9lKsp.s:81     .text.ResetHandler:00000000 ResetHandler
-     /tmp/cca9lKsp.s:269    .text.ResetHandler:000000c4 $d
+     /tmp/ccmm4KSj.s:20     .text.__early_init:00000000 $t
+     /tmp/ccmm4KSj.s:26     .text.__early_init:00000000 __early_init
+     /tmp/ccmm4KSj.s:37     .text.__late_init:00000000 $t
+     /tmp/ccmm4KSj.s:43     .text.__late_init:00000000 __late_init
+     /tmp/ccmm4KSj.s:56     .text._default_exit:00000000 $t
+     /tmp/ccmm4KSj.s:62     .text._default_exit:00000000 _default_exit
+     /tmp/ccmm4KSj.s:75     .text.ResetHandler:00000000 $t
+     /tmp/ccmm4KSj.s:81     .text.ResetHandler:00000000 ResetHandler
+     /tmp/ccmm4KSj.s:269    .text.ResetHandler:000000c4 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

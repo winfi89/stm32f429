@@ -98,13 +98,6 @@ int16_t complement2signed(uint8_t msb, uint8_t lsb){
   return (int16_t)word;
 }
 
-/* I2C interface #2 */
-static const I2CConfig i2cfg2 = {
-    OPMODE_I2C,
-    400000,
-    FAST_DUTY_CYCLE_2,
-};
-
 /*
  * Application entry point.
  */
@@ -125,7 +118,7 @@ int main(void) {
   /*
    * Starts I2C
    */
-  i2cStart(&I2CD2, &i2cfg2);
+  //i2cStart(&I2CD2, &i2cfg2);
 
   /*
    * Prepares the Serial driver 2
@@ -137,35 +130,36 @@ int main(void) {
   /**
    * Prepares the accelerometer
    */
-  txbuf[0] = ACCEL_CTRL_REG1; /* register address */
-  txbuf[1] = 0x1;
-  i2cAcquireBus(&I2CD2);
-  status = i2cMasterTransmitTimeout(&I2CD2, mma8451_addr, txbuf, 2, rxbuf, 0, tmo);
-  i2cReleaseBus(&I2CD2);
+  //txbuf[0] = ACCEL_CTRL_REG1; /* register address */
+  //txbuf[1] = 0x1;
+  //i2cAcquireBus(&I2CD2);
+  //status = i2cMasterTransmitTimeout(&I2CD2, mma8451_addr, txbuf, 2, rxbuf, 0, tmo);
+  //i2cReleaseBus(&I2CD2);
 
-  if (status != RDY_OK){
-    errors = i2cGetErrors(&I2CD2);
-  }
+  //if (status != RDY_OK){
+  //  errors = i2cGetErrors(&I2CD2);
+  //}
 
   /*
    * Normal main() thread activity, nothing in this test.
    */
+  palSetPadMode(GPIOG, 13, PAL_MODE_OUTPUT_PUSHPULL | PAL_STM32_OSPEED_LOWEST );
   while (TRUE) {
-    palTogglePad(GPIOB, GPIOB_LED_B);
+    palTogglePad(GPIOG, 13);
     chThdSleepMilliseconds(100);
 
-    txbuf[0] = ACCEL_OUT_DATA; /* register address */
-    i2cAcquireBus(&I2CD2);
-    status = i2cMasterTransmitTimeout(&I2CD2, mma8451_addr, txbuf, 1, rxbuf, 6, tmo);
-    i2cReleaseBus(&I2CD2);
+    //txbuf[0] = ACCEL_OUT_DATA; /* register address */
+    //i2cAcquireBus(&I2CD2);
+    //status = i2cMasterTransmitTimeout(&I2CD2, mma8451_addr, txbuf, 1, rxbuf, 6, tmo);
+    //i2cReleaseBus(&I2CD2);
 
-    if (status != RDY_OK){
-      errors = i2cGetErrors(&I2CD2);
-    }
+    //if (status != RDY_OK){
+    //  errors = i2cGetErrors(&I2CD2);
+    //}
 
-    acceleration_x = complement2signed(rxbuf[0], rxbuf[1]);
-    acceleration_y = complement2signed(rxbuf[2], rxbuf[3]);
-    acceleration_z = complement2signed(rxbuf[4], rxbuf[5]);
+    acceleration_x = complement2signed(0, 1);
+    acceleration_y = complement2signed(2, 3);
+    acceleration_z = complement2signed(4, 5);
 
     print("x: ");
     printn(acceleration_x);

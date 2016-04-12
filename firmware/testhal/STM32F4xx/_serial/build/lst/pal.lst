@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccm9fKtd.s 			page 1
+ARM GAS  /tmp/cc0aMGaM.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
   55 0016 6068     		ldr	r0, [r4, #4]
   56 0018 1B69     		ldr	r3, [r3, #16]
   57 001a D340     		lsrs	r3, r3, r2
-ARM GAS  /tmp/ccm9fKtd.s 			page 2
+ARM GAS  /tmp/cc0aMGaM.s 			page 2
 
 
   58              		.loc 1 83 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  112 0022 02F11003 		add	r3, r2, #16
  113 0026 9140     		lsls	r1, r1, r2
  114 0028 00FA03F3 		lsl	r3, r0, r3
-ARM GAS  /tmp/ccm9fKtd.s 			page 3
+ARM GAS  /tmp/cc0aMGaM.s 			page 3
 
 
  115 002c 0B43     		orrs	r3, r3, r1
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  169 0020 BDE87040 		pop	{r4, r5, r6, lr}
  170              		.cfi_restore 14
  171              		.cfi_restore 6
-ARM GAS  /tmp/ccm9fKtd.s 			page 4
+ARM GAS  /tmp/cc0aMGaM.s 			page 4
 
 
  172              		.cfi_restore 5
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  216 001d 00000000 		.4byte	0
  217 0021 00000000 		.4byte	.Ldebug_line0
  218 0025 02       		.uleb128 0x2
-ARM GAS  /tmp/ccm9fKtd.s 			page 5
+ARM GAS  /tmp/cc0aMGaM.s 			page 5
 
 
  219 0026 04       		.byte	0x4
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  273 008c 03       		.uleb128 0x3
  274 008d 08       		.byte	0x8
  275 008e 07       		.byte	0x7
-ARM GAS  /tmp/ccm9fKtd.s 			page 6
+ARM GAS  /tmp/cc0aMGaM.s 			page 6
 
 
  276 008f DF020000 		.4byte	.LASF12
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  330 00fe 00       		.byte	0
  331 00ff 09       		.uleb128 0x9
  332 0100 04       		.byte	0x4
-ARM GAS  /tmp/ccm9fKtd.s 			page 7
+ARM GAS  /tmp/cc0aMGaM.s 			page 7
 
 
  333 0101 05       		.byte	0x5
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  387 0169 14       		.byte	0x14
  388 016a 08       		.uleb128 0x8
  389 016b 1C010000 		.4byte	.LASF25
-ARM GAS  /tmp/ccm9fKtd.s 			page 8
+ARM GAS  /tmp/cc0aMGaM.s 			page 8
 
 
  390 016f 05       		.byte	0x5
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  444 01db 45010000 		.4byte	.LASF33
  445 01df 06       		.byte	0x6
  446 01e0 89       		.byte	0x89
-ARM GAS  /tmp/ccm9fKtd.s 			page 9
+ARM GAS  /tmp/cc0aMGaM.s 			page 9
 
 
  447 01e1 C1010000 		.4byte	0x1c1
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  501 0253 00000000 		.4byte	.LFB112
  502 0257 38000000 		.4byte	.LFE112-.LFB112
  503 025b 01       		.uleb128 0x1
-ARM GAS  /tmp/ccm9fKtd.s 			page 10
+ARM GAS  /tmp/cc0aMGaM.s 			page 10
 
 
  504 025c 9C       		.byte	0x9c
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  558 02d7 03       		.byte	0x3
  559 02d8 20000000 		.4byte	.LC2
  560 02dc 00       		.byte	0
-ARM GAS  /tmp/ccm9fKtd.s 			page 11
+ARM GAS  /tmp/cc0aMGaM.s 			page 11
 
 
  561 02dd 13       		.uleb128 0x13
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  615 0018 3E       		.uleb128 0x3e
  616 0019 0B       		.uleb128 0xb
  617 001a 03       		.uleb128 0x3
-ARM GAS  /tmp/ccm9fKtd.s 			page 12
+ARM GAS  /tmp/cc0aMGaM.s 			page 12
 
 
  618 001b 08       		.uleb128 0x8
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  672 0051 3B       		.uleb128 0x3b
  673 0052 0B       		.uleb128 0xb
  674 0053 49       		.uleb128 0x49
-ARM GAS  /tmp/ccm9fKtd.s 			page 13
+ARM GAS  /tmp/cc0aMGaM.s 			page 13
 
 
  675 0054 13       		.uleb128 0x13
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  729 008a 00       		.byte	0
  730 008b 0C       		.uleb128 0xc
  731 008c 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccm9fKtd.s 			page 14
+ARM GAS  /tmp/cc0aMGaM.s 			page 14
 
 
  732 008d 01       		.byte	0x1
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  786 00c8 9142     		.uleb128 0x2111
  787 00ca 18       		.uleb128 0x18
  788 00cb 00       		.byte	0
-ARM GAS  /tmp/ccm9fKtd.s 			page 15
+ARM GAS  /tmp/cc0aMGaM.s 			page 15
 
 
  789 00cc 00       		.byte	0
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  843 0107 01       		.byte	0x1
  844 0108 11       		.uleb128 0x11
  845 0109 01       		.uleb128 0x1
-ARM GAS  /tmp/ccm9fKtd.s 			page 16
+ARM GAS  /tmp/cc0aMGaM.s 			page 16
 
 
  846 010a 9542     		.uleb128 0x2115
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  900 0141 05       		.uleb128 0x5
  901 0142 00       		.byte	0
  902 0143 00       		.byte	0
-ARM GAS  /tmp/ccm9fKtd.s 			page 17
+ARM GAS  /tmp/cc0aMGaM.s 			page 17
 
 
  903 0144 00       		.byte	0
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  957 007b 9F       		.byte	0x9f
  958 007c 00000000 		.4byte	0
  959 0080 00000000 		.4byte	0
-ARM GAS  /tmp/ccm9fKtd.s 			page 18
+ARM GAS  /tmp/cc0aMGaM.s 			page 18
 
 
  960              	.LLST3:
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  1014 0028 00000000 		.4byte	0
  1015 002c 00000000 		.4byte	0
  1016              		.section	.debug_ranges,"",%progbits
-ARM GAS  /tmp/ccm9fKtd.s 			page 19
+ARM GAS  /tmp/cc0aMGaM.s 			page 19
 
 
  1017              	.Ldebug_ranges0:
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  1042      6F6D6D6F 
  1042      6E00
  1043              	.LASF8:
-ARM GAS  /tmp/ccm9fKtd.s 			page 20
+ARM GAS  /tmp/cc0aMGaM.s 			page 20
 
 
  1044 0105 5F5F696E 		.ascii	"__int32_t\000"
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  1070 018e 73686F72 		.ascii	"short unsigned int\000"
  1070      7420756E 
  1070      7369676E 
-ARM GAS  /tmp/ccm9fKtd.s 			page 21
+ARM GAS  /tmp/cc0aMGaM.s 			page 21
 
 
  1070      65642069 
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  1098      206C6F6E 
  1098      6720696E 
  1098      7400
-ARM GAS  /tmp/ccm9fKtd.s 			page 22
+ARM GAS  /tmp/cc0aMGaM.s 			page 22
 
 
  1099              	.LASF34:
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  1125 02d9 5F426F6F 		.ascii	"_Bool\000"
  1125      6C00
  1126              	.LASF12:
-ARM GAS  /tmp/ccm9fKtd.s 			page 23
+ARM GAS  /tmp/cc0aMGaM.s 			page 23
 
 
  1127 02df 6C6F6E67 		.ascii	"long long unsigned int\000"
@@ -1330,21 +1330,21 @@ ARM GAS  /tmp/ccm9fKtd.s 			page 1
  1129 02f6 494F4275 		.ascii	"IOBus\000"
  1129      7300
  1130              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.2.1 20151202 (release) [ARM/embedded-5-bran
-ARM GAS  /tmp/ccm9fKtd.s 			page 24
+ARM GAS  /tmp/cc0aMGaM.s 			page 24
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 pal.c
-     /tmp/ccm9fKtd.s:20     .text.palReadBus:00000000 $t
-     /tmp/ccm9fKtd.s:26     .text.palReadBus:00000000 palReadBus
-     /tmp/ccm9fKtd.s:65     .text.palReadBus:00000020 $d
-     /tmp/ccm9fKtd.s:70     .text.palWriteBus:00000000 $t
-     /tmp/ccm9fKtd.s:76     .text.palWriteBus:00000000 palWriteBus
-     /tmp/ccm9fKtd.s:122    .text.palWriteBus:00000034 $d
-     /tmp/ccm9fKtd.s:127    .text.palSetBusMode:00000000 $t
-     /tmp/ccm9fKtd.s:133    .text.palSetBusMode:00000000 palSetBusMode
-     /tmp/ccm9fKtd.s:182    .text.palSetBusMode:00000028 $d
-     /tmp/ccm9fKtd.s:187    .rodata.str1.4:00000000 $d
+     /tmp/cc0aMGaM.s:20     .text.palReadBus:00000000 $t
+     /tmp/cc0aMGaM.s:26     .text.palReadBus:00000000 palReadBus
+     /tmp/cc0aMGaM.s:65     .text.palReadBus:00000020 $d
+     /tmp/cc0aMGaM.s:70     .text.palWriteBus:00000000 $t
+     /tmp/cc0aMGaM.s:76     .text.palWriteBus:00000000 palWriteBus
+     /tmp/cc0aMGaM.s:122    .text.palWriteBus:00000034 $d
+     /tmp/cc0aMGaM.s:127    .text.palSetBusMode:00000000 $t
+     /tmp/cc0aMGaM.s:133    .text.palSetBusMode:00000000 palSetBusMode
+     /tmp/cc0aMGaM.s:182    .text.palSetBusMode:00000028 $d
+     /tmp/cc0aMGaM.s:187    .rodata.str1.4:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

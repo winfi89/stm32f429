@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccuFEoje.s 			page 1
+ARM GAS  /tmp/ccj0txlk.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
   55 001c 00000000 		.word	__heap_end__
   56 0020 00000000 		.word	.LANCHOR0
   57 0024 00000000 		.word	.LANCHOR1
-ARM GAS  /tmp/ccuFEoje.s 			page 2
+ARM GAS  /tmp/ccj0txlk.s 			page 2
 
 
   58              		.cfi_endproc
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  112 0026 0B60     		strls	r3, [r1]
  113              		.loc 1 122 0
  114 0028 0446     		movls	r4, r0
-ARM GAS  /tmp/ccuFEoje.s 			page 3
+ARM GAS  /tmp/ccj0txlk.s 			page 3
 
 
  115              	.LVL6:
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  169              		.loc 1 117 0
  170 0010 E31D     		adds	r3, r4, #7
  171 0012 23F00703 		bic	r3, r3, #7
-ARM GAS  /tmp/ccuFEoje.s 			page 4
+ARM GAS  /tmp/ccj0txlk.s 			page 4
 
 
  172              	.LVL11:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  226              		.section	.bss.endmem,"aw",%nobits
  227              		.align	2
  228              		.set	.LANCHOR1,. + 0
-ARM GAS  /tmp/ccuFEoje.s 			page 5
+ARM GAS  /tmp/ccj0txlk.s 			page 5
 
 
  229              		.type	endmem, %object
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  283 004e 06       		.byte	0x6
  284 004f 7D020000 		.4byte	.LASF3
  285 0053 03       		.uleb128 0x3
-ARM GAS  /tmp/ccuFEoje.s 			page 6
+ARM GAS  /tmp/ccj0txlk.s 			page 6
 
 
  286 0054 07000000 		.4byte	.LASF5
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  340 00b7 9A000000 		.4byte	0x9a
  341 00bb 01       		.byte	0x1
  342 00bc D5000000 		.4byte	0xd5
-ARM GAS  /tmp/ccuFEoje.s 			page 7
+ARM GAS  /tmp/ccj0txlk.s 			page 7
 
 
  343 00c0 08       		.uleb128 0x8
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  397 0137 01       		.byte	0x1
  398 0138 5C       		.byte	0x5c
  399 0139 9A000000 		.4byte	0x9a
-ARM GAS  /tmp/ccuFEoje.s 			page 8
+ARM GAS  /tmp/ccj0txlk.s 			page 8
 
 
  400 013d 10       		.uleb128 0x10
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  454 01cd 17       		.uleb128 0x17
  455 01ce 23010000 		.4byte	.LASF18
  456 01d2 01       		.byte	0x1
-ARM GAS  /tmp/ccuFEoje.s 			page 9
+ARM GAS  /tmp/ccj0txlk.s 			page 9
 
 
  457 01d3 3A       		.byte	0x3a
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  511 000d 11       		.uleb128 0x11
  512 000e 01       		.uleb128 0x1
  513 000f 10       		.uleb128 0x10
-ARM GAS  /tmp/ccuFEoje.s 			page 10
+ARM GAS  /tmp/ccj0txlk.s 			page 10
 
 
  514 0010 17       		.uleb128 0x17
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  568 0046 07       		.uleb128 0x7
  569 0047 2E       		.uleb128 0x2e
  570 0048 01       		.byte	0x1
-ARM GAS  /tmp/ccuFEoje.s 			page 11
+ARM GAS  /tmp/ccj0txlk.s 			page 11
 
 
  571 0049 3F       		.uleb128 0x3f
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  625 007f 0B       		.uleb128 0xb
  626 0080 27       		.uleb128 0x27
  627 0081 19       		.uleb128 0x19
-ARM GAS  /tmp/ccuFEoje.s 			page 12
+ARM GAS  /tmp/ccj0txlk.s 			page 12
 
 
  628 0082 11       		.uleb128 0x11
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  682 00b9 27       		.uleb128 0x27
  683 00ba 19       		.uleb128 0x19
  684 00bb 49       		.uleb128 0x49
-ARM GAS  /tmp/ccuFEoje.s 			page 13
+ARM GAS  /tmp/ccj0txlk.s 			page 13
 
 
  685 00bc 13       		.uleb128 0x13
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  739 00f3 12       		.uleb128 0x12
  740 00f4 0B       		.uleb128 0xb
  741 00f5 01       		.byte	0x1
-ARM GAS  /tmp/ccuFEoje.s 			page 14
+ARM GAS  /tmp/ccj0txlk.s 			page 14
 
 
  742 00f6 11       		.uleb128 0x11
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  796 012f 49       		.uleb128 0x49
  797 0130 13       		.uleb128 0x13
  798 0131 11       		.uleb128 0x11
-ARM GAS  /tmp/ccuFEoje.s 			page 15
+ARM GAS  /tmp/ccj0txlk.s 			page 15
 
 
  799 0132 01       		.uleb128 0x1
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  853 001a 40000000 		.4byte	.LFE1
  854 001e 0400     		.2byte	0x4
  855 0020 F3       		.byte	0xf3
-ARM GAS  /tmp/ccuFEoje.s 			page 16
+ARM GAS  /tmp/ccj0txlk.s 			page 16
 
 
  856 0021 01       		.uleb128 0x1
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  910 009a 1E000000 		.4byte	.LVL13
  911 009e 0100     		.2byte	0x1
  912 00a0 53       		.byte	0x53
-ARM GAS  /tmp/ccuFEoje.s 			page 17
+ARM GAS  /tmp/ccj0txlk.s 			page 17
 
 
  913 00a1 1E000000 		.4byte	.LVL13
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  967              	.Ldebug_ranges0:
  968 0000 00000000 		.4byte	.LFB0
  969 0004 28000000 		.4byte	.LFE0
-ARM GAS  /tmp/ccuFEoje.s 			page 18
+ARM GAS  /tmp/ccj0txlk.s 			page 18
 
 
  970 0008 00000000 		.4byte	.LFB1
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  994      6E00
  995              	.LASF22:
  996 0101 6462675F 		.ascii	"dbg_check_unlock\000"
-ARM GAS  /tmp/ccuFEoje.s 			page 19
+ARM GAS  /tmp/ccj0txlk.s 			page 19
 
 
  996      63686563 
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  1018      206C6F6E 
  1018      6720756E 
  1018      7369676E 
-ARM GAS  /tmp/ccuFEoje.s 			page 20
+ARM GAS  /tmp/ccj0txlk.s 			page 20
 
 
  1018      65642069 
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  1041      00
  1042              	.LASF2:
  1043 0271 6C6F6E67 		.ascii	"long double\000"
-ARM GAS  /tmp/ccuFEoje.s 			page 21
+ARM GAS  /tmp/ccj0txlk.s 			page 21
 
 
  1043      20646F75 
@@ -1211,27 +1211,27 @@ ARM GAS  /tmp/ccuFEoje.s 			page 1
  1047 0289 5F426F6F 		.ascii	"_Bool\000"
  1047      6C00
  1048              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.2.1 20151202 (release) [ARM/embedded-5-bran
-ARM GAS  /tmp/ccuFEoje.s 			page 22
+ARM GAS  /tmp/ccj0txlk.s 			page 22
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chmemcore.c
-     /tmp/ccuFEoje.s:20     .text._core_init:00000000 $t
-     /tmp/ccuFEoje.s:26     .text._core_init:00000000 _core_init
-     /tmp/ccuFEoje.s:54     .text._core_init:00000018 $d
-     /tmp/ccuFEoje.s:62     .text.chCoreAlloc:00000000 $t
-     /tmp/ccuFEoje.s:68     .text.chCoreAlloc:00000000 chCoreAlloc
-     /tmp/ccuFEoje.s:136    .text.chCoreAlloc:00000038 $d
-     /tmp/ccuFEoje.s:142    .text.chCoreAllocI:00000000 $t
-     /tmp/ccuFEoje.s:148    .text.chCoreAllocI:00000000 chCoreAllocI
-     /tmp/ccuFEoje.s:191    .text.chCoreAllocI:00000024 $d
-     /tmp/ccuFEoje.s:197    .text.chCoreStatus:00000000 $t
-     /tmp/ccuFEoje.s:203    .text.chCoreStatus:00000000 chCoreStatus
-     /tmp/ccuFEoje.s:221    .text.chCoreStatus:0000000c $d
-     /tmp/ccuFEoje.s:227    .bss.endmem:00000000 $d
-     /tmp/ccuFEoje.s:231    .bss.endmem:00000000 endmem
-     /tmp/ccuFEoje.s:234    .bss.nextmem:00000000 $d
-     /tmp/ccuFEoje.s:238    .bss.nextmem:00000000 nextmem
+     /tmp/ccj0txlk.s:20     .text._core_init:00000000 $t
+     /tmp/ccj0txlk.s:26     .text._core_init:00000000 _core_init
+     /tmp/ccj0txlk.s:54     .text._core_init:00000018 $d
+     /tmp/ccj0txlk.s:62     .text.chCoreAlloc:00000000 $t
+     /tmp/ccj0txlk.s:68     .text.chCoreAlloc:00000000 chCoreAlloc
+     /tmp/ccj0txlk.s:136    .text.chCoreAlloc:00000038 $d
+     /tmp/ccj0txlk.s:142    .text.chCoreAllocI:00000000 $t
+     /tmp/ccj0txlk.s:148    .text.chCoreAllocI:00000000 chCoreAllocI
+     /tmp/ccj0txlk.s:191    .text.chCoreAllocI:00000024 $d
+     /tmp/ccj0txlk.s:197    .text.chCoreStatus:00000000 $t
+     /tmp/ccj0txlk.s:203    .text.chCoreStatus:00000000 chCoreStatus
+     /tmp/ccj0txlk.s:221    .text.chCoreStatus:0000000c $d
+     /tmp/ccj0txlk.s:227    .bss.endmem:00000000 $d
+     /tmp/ccj0txlk.s:231    .bss.endmem:00000000 endmem
+     /tmp/ccj0txlk.s:234    .bss.nextmem:00000000 $d
+     /tmp/ccj0txlk.s:238    .bss.nextmem:00000000 nextmem
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccib2OKJ.s 			page 1
+ARM GAS  /tmp/ccGt9fNG.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
   55 001c 2B46     		mov	r3, r5
   56 001e FFF7FEFF 		bl	chThdCreateStatic
   57              	.LVL0:
-ARM GAS  /tmp/ccib2OKJ.s 			page 2
+ARM GAS  /tmp/ccGt9fNG.s 			page 2
 
 
   58              		.loc 1 69 0
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  112 007c 0091     		str	r1, [sp]
  113 007e 1846     		mov	r0, r3
  114 0080 4FF4A871 		mov	r1, #336
-ARM GAS  /tmp/ccib2OKJ.s 			page 3
+ARM GAS  /tmp/ccGt9fNG.s 			page 3
 
 
  115 0084 2B46     		mov	r3, r5
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  169              		.cfi_def_cfa_offset 8
  170              		.cfi_offset 3, -8
  171              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccib2OKJ.s 			page 4
+ARM GAS  /tmp/ccGt9fNG.s 			page 4
 
 
  172              		.loc 1 62 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  226              		.loc 1 96 0
  227 002a 6060     		str	r0, [r4, #4]
  228              		.loc 1 97 0
-ARM GAS  /tmp/ccib2OKJ.s 			page 5
+ARM GAS  /tmp/ccGt9fNG.s 			page 5
 
 
  229 002c 0091     		str	r1, [sp]
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  283 0086 2B46     		mov	r3, r5
  284 0088 4FF4A871 		mov	r1, #336
  285 008c FFF7FEFF 		bl	chThdCreateI
-ARM GAS  /tmp/ccib2OKJ.s 			page 6
+ARM GAS  /tmp/ccGt9fNG.s 			page 6
 
 
  286              	.LVL15:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  340              		.thumb
  341              		.thumb_func
  342              		.type	thd3_execute, %function
-ARM GAS  /tmp/ccib2OKJ.s 			page 7
+ARM GAS  /tmp/ccGt9fNG.s 			page 7
 
 
  343              	thd3_execute:
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  397 003a 3846     		mov	r0, r7
  398 003c FFF7FEFF 		bl	chThdSetPriority
  399              	.LVL28:
-ARM GAS  /tmp/ccib2OKJ.s 			page 8
+ARM GAS  /tmp/ccGt9fNG.s 			page 8
 
 
  400              		.loc 1 136 0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  454 0094 0028     		cmp	r0, #0
  455 0096 C4D1     		bne	.L11
  456              		.loc 1 150 0
-ARM GAS  /tmp/ccib2OKJ.s 			page 9
+ARM GAS  /tmp/ccGt9fNG.s 			page 9
 
 
  457 0098 2846     		mov	r0, r5
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  511 00fa 5142     		rsbs	r1, r2, #0
  512 00fc 5141     		adcs	r1, r1, r2
  513 00fe 0A20     		movs	r0, #10
-ARM GAS  /tmp/ccib2OKJ.s 			page 10
+ARM GAS  /tmp/ccGt9fNG.s 			page 10
 
 
  514 0100 FFF7FEFF 		bl	_test_assert
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  568              		.loc 1 189 0
  569              		.cfi_startproc
  570              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccib2OKJ.s 			page 11
+ARM GAS  /tmp/ccGt9fNG.s 			page 11
 
 
  571              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  625              	.LVL57:
  626              		.loc 1 207 0
  627 0046 04F2E932 		addw	r2, r4, #1001
-ARM GAS  /tmp/ccib2OKJ.s 			page 12
+ARM GAS  /tmp/ccGt9fNG.s 			page 12
 
 
  628 004a 04F57A71 		add	r1, r4, #1000
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  682 0004 00000000 		.word	0
  683 0008 00000000 		.word	0
  684 000c 00000000 		.word	thd1_execute
-ARM GAS  /tmp/ccib2OKJ.s 			page 13
+ARM GAS  /tmp/ccGt9fNG.s 			page 13
 
 
  685              		.section	.rodata.testthd2,"a",%progbits
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  739              	.LC5:
  740 0014 41424344 		.ascii	"ABCDE\000"
  740      4500
-ARM GAS  /tmp/ccib2OKJ.s 			page 14
+ARM GAS  /tmp/ccGt9fNG.s 			page 14
 
 
  741 001a 0000     		.space	2
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  780 0026 04       		.byte	0x4
  781 0027 05       		.byte	0x5
  782 0028 696E7400 		.ascii	"int\000"
-ARM GAS  /tmp/ccib2OKJ.s 			page 15
+ARM GAS  /tmp/ccGt9fNG.s 			page 15
 
 
  783 002c 03       		.uleb128 0x3
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  837 0092 5B       		.byte	0x5b
  838 0093 97000000 		.4byte	0x97
  839 0097 03       		.uleb128 0x3
-ARM GAS  /tmp/ccib2OKJ.s 			page 16
+ARM GAS  /tmp/ccGt9fNG.s 			page 16
 
 
  840 0098 08       		.byte	0x8
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  894 010d 04       		.byte	0x4
  895 010e 35       		.byte	0x35
  896 010f B4000000 		.4byte	0xb4
-ARM GAS  /tmp/ccib2OKJ.s 			page 17
+ARM GAS  /tmp/ccGt9fNG.s 			page 17
 
 
  897 0113 04       		.uleb128 0x4
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  951 017f 00010000 		.4byte	.LASF33
  952 0183 06       		.byte	0x6
  953 0184 74       		.byte	0x74
-ARM GAS  /tmp/ccib2OKJ.s 			page 18
+ARM GAS  /tmp/ccGt9fNG.s 			page 18
 
 
  954 0185 B5040000 		.4byte	0x4b5
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1008 01f1 BB040000 		.4byte	0x4bb
  1009 01f5 40       		.byte	0x40
  1010 01f6 06       		.uleb128 0x6
-ARM GAS  /tmp/ccib2OKJ.s 			page 19
+ARM GAS  /tmp/ccGt9fNG.s 			page 19
 
 
  1011 01f7 D5040000 		.4byte	.LASF42
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1065 0260 0A       		.uleb128 0xa
  1066 0261 04       		.byte	0x4
  1067 0262 04       		.uleb128 0x4
-ARM GAS  /tmp/ccib2OKJ.s 			page 20
+ARM GAS  /tmp/ccGt9fNG.s 			page 20
 
 
  1068 0263 A5010000 		.4byte	.LASF46
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1122 02d4 07       		.byte	0x7
  1123 02d5 2601     		.2byte	0x126
  1124 02d7 55020000 		.4byte	0x255
-ARM GAS  /tmp/ccib2OKJ.s 			page 21
+ARM GAS  /tmp/ccGt9fNG.s 			page 21
 
 
  1125 02db 1C       		.byte	0x1c
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1179 0349 08       		.byte	0x8
  1180 034a 65       		.byte	0x65
  1181 034b 81030000 		.4byte	0x381
-ARM GAS  /tmp/ccib2OKJ.s 			page 22
+ARM GAS  /tmp/ccGt9fNG.s 			page 22
 
 
  1182 034f 00       		.byte	0
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1236 03b8 08       		.byte	0x8
  1237 03b9 7C       		.byte	0x7c
  1238 03ba C0030000 		.4byte	0x3c0
-ARM GAS  /tmp/ccib2OKJ.s 			page 23
+ARM GAS  /tmp/ccGt9fNG.s 			page 23
 
 
  1239 03be 0C       		.byte	0xc
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1293 0427 6B       		.byte	0x6b
  1294 0428 D0030000 		.4byte	0x3d0
  1295 042c 05       		.uleb128 0x5
-ARM GAS  /tmp/ccib2OKJ.s 			page 24
+ARM GAS  /tmp/ccGt9fNG.s 			page 24
 
 
  1296 042d 9F010000 		.4byte	.LASF66
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1350 049c 06       		.byte	0x6
  1351 049d B2       		.byte	0xb2
  1352 049e FD000000 		.4byte	0xfd
-ARM GAS  /tmp/ccib2OKJ.s 			page 25
+ARM GAS  /tmp/ccGt9fNG.s 			page 25
 
 
  1353 04a2 00       		.byte	0
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1407 050b BD       		.byte	0xbd
  1408 050c 01       		.byte	0x1
  1409 050d 1D050000 		.4byte	0x51d
-ARM GAS  /tmp/ccib2OKJ.s 			page 26
+ARM GAS  /tmp/ccGt9fNG.s 			page 26
 
 
  1410 0511 15       		.uleb128 0x15
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1464 056f 76       		.byte	0x76
  1465 0570 04       		.sleb128 4
  1466 0571 06       		.byte	0x6
-ARM GAS  /tmp/ccib2OKJ.s 			page 27
+ARM GAS  /tmp/ccGt9fNG.s 			page 27
 
 
  1467 0572 18       		.uleb128 0x18
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1521 05bf E2050000 		.4byte	0x5e2
  1522 05c3 18       		.uleb128 0x18
  1523 05c4 01       		.uleb128 0x1
-ARM GAS  /tmp/ccib2OKJ.s 			page 28
+ARM GAS  /tmp/ccGt9fNG.s 			page 28
 
 
  1524 05c5 50       		.byte	0x50
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1578 0609 10000000 		.4byte	.LC4
  1579 060d 00       		.byte	0
  1580 060e 19       		.uleb128 0x19
-ARM GAS  /tmp/ccib2OKJ.s 			page 29
+ARM GAS  /tmp/ccGt9fNG.s 			page 29
 
 
  1581 060f 90000000 		.4byte	.LVL5
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1635 0685 03       		.uleb128 0x3
  1636 0686 76       		.byte	0x76
  1637 0687 04       		.sleb128 4
-ARM GAS  /tmp/ccib2OKJ.s 			page 30
+ARM GAS  /tmp/ccGt9fNG.s 			page 30
 
 
  1638 0688 06       		.byte	0x6
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1692 06d2 C70A0000 		.4byte	0xac7
  1693 06d6 F9060000 		.4byte	0x6f9
  1694 06da 18       		.uleb128 0x18
-ARM GAS  /tmp/ccib2OKJ.s 			page 31
+ARM GAS  /tmp/ccGt9fNG.s 			page 31
 
 
  1695 06db 01       		.uleb128 0x1
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1749 071f 03       		.byte	0x3
  1750 0720 0C000000 		.4byte	.LC3
  1751 0724 00       		.byte	0
-ARM GAS  /tmp/ccib2OKJ.s 			page 32
+ARM GAS  /tmp/ccGt9fNG.s 			page 32
 
 
  1752 0725 19       		.uleb128 0x19
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1806 0786 05       		.uleb128 0x5
  1807 0787 03       		.byte	0x3
  1808 0788 14000000 		.4byte	.LC5
-ARM GAS  /tmp/ccib2OKJ.s 			page 33
+ARM GAS  /tmp/ccGt9fNG.s 			page 33
 
 
  1809 078c 00       		.byte	0
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1863 07ee 29       		.byte	0x29
  1864 07ef 00       		.byte	0
  1865 07f0 17       		.uleb128 0x17
-ARM GAS  /tmp/ccib2OKJ.s 			page 34
+ARM GAS  /tmp/ccGt9fNG.s 			page 34
 
 
  1866 07f1 36000000 		.4byte	.LVL27
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1920 0860 35       		.byte	0x35
  1921 0861 00       		.byte	0
  1922 0862 17       		.uleb128 0x17
-ARM GAS  /tmp/ccib2OKJ.s 			page 35
+ARM GAS  /tmp/ccGt9fNG.s 			page 35
 
 
  1923 0863 9E000000 		.4byte	.LVL35
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  1977 08cc D6080000 		.4byte	0x8d6
  1978 08d0 18       		.uleb128 0x18
  1979 08d1 01       		.uleb128 0x1
-ARM GAS  /tmp/ccib2OKJ.s 			page 36
+ARM GAS  /tmp/ccGt9fNG.s 			page 36
 
 
  1980 08d2 50       		.byte	0x50
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2034 094d 03       		.uleb128 0x3
  2035 094e 0A       		.byte	0xa
  2036 094f E803     		.2byte	0x3e8
-ARM GAS  /tmp/ccib2OKJ.s 			page 37
+ARM GAS  /tmp/ccGt9fNG.s 			page 37
 
 
  2037 0951 00       		.byte	0
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2091 09b0 02       		.uleb128 0x2
  2092 09b1 08       		.byte	0x8
  2093 09b2 64       		.byte	0x64
-ARM GAS  /tmp/ccib2OKJ.s 			page 38
+ARM GAS  /tmp/ccGt9fNG.s 			page 38
 
 
  2094 09b3 00       		.byte	0
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2148 0a05 00       		.byte	0
  2149 0a06 00       		.byte	0
  2150 0a07 23       		.uleb128 0x23
-ARM GAS  /tmp/ccib2OKJ.s 			page 39
+ARM GAS  /tmp/ccGt9fNG.s 			page 39
 
 
  2151 0a08 26000000 		.4byte	.LASF84
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2205 0a7f AE       		.byte	0xae
  2206 0a80 630A0000 		.4byte	0xa63
  2207 0a84 05       		.uleb128 0x5
-ARM GAS  /tmp/ccib2OKJ.s 			page 40
+ARM GAS  /tmp/ccGt9fNG.s 			page 40
 
 
  2208 0a85 03       		.byte	0x3
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2262 0afe E7       		.byte	0xe7
  2263 0aff 29       		.uleb128 0x29
  2264 0b00 86000000 		.4byte	.LASF97
-ARM GAS  /tmp/ccib2OKJ.s 			page 41
+ARM GAS  /tmp/ccGt9fNG.s 			page 41
 
 
  2265 0b04 86000000 		.4byte	.LASF97
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2319 0008 0E       		.uleb128 0xe
  2320 0009 1B       		.uleb128 0x1b
  2321 000a 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccib2OKJ.s 			page 42
+ARM GAS  /tmp/ccGt9fNG.s 			page 42
 
 
  2322 000b 55       		.uleb128 0x55
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2376 0041 01       		.uleb128 0x1
  2377 0042 13       		.uleb128 0x13
  2378 0043 00       		.byte	0
-ARM GAS  /tmp/ccib2OKJ.s 			page 43
+ARM GAS  /tmp/ccGt9fNG.s 			page 43
 
 
  2379 0044 00       		.byte	0
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2433 007a 0F       		.uleb128 0xf
  2434 007b 00       		.byte	0
  2435 007c 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccib2OKJ.s 			page 44
+ARM GAS  /tmp/ccGt9fNG.s 			page 44
 
 
  2436 007d 0B       		.uleb128 0xb
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2490 00b3 00       		.byte	0
  2491 00b4 00       		.byte	0
  2492 00b5 10       		.uleb128 0x10
-ARM GAS  /tmp/ccib2OKJ.s 			page 45
+ARM GAS  /tmp/ccGt9fNG.s 			page 45
 
 
  2493 00b6 17       		.uleb128 0x17
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2547 00ec 00       		.byte	0
  2548 00ed 00       		.byte	0
  2549 00ee 15       		.uleb128 0x15
-ARM GAS  /tmp/ccib2OKJ.s 			page 46
+ARM GAS  /tmp/ccGt9fNG.s 			page 46
 
 
  2550 00ef 34       		.uleb128 0x34
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2604 012b 00       		.byte	0
  2605 012c 19       		.uleb128 0x19
  2606 012d 898201   		.uleb128 0x4109
-ARM GAS  /tmp/ccib2OKJ.s 			page 47
+ARM GAS  /tmp/ccGt9fNG.s 			page 47
 
 
  2607 0130 00       		.byte	0
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2661 016a 02       		.uleb128 0x2
  2662 016b 17       		.uleb128 0x17
  2663 016c 00       		.byte	0
-ARM GAS  /tmp/ccib2OKJ.s 			page 48
+ARM GAS  /tmp/ccGt9fNG.s 			page 48
 
 
  2664 016d 00       		.byte	0
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2718 01a4 17       		.uleb128 0x17
  2719 01a5 00       		.byte	0
  2720 01a6 00       		.byte	0
-ARM GAS  /tmp/ccib2OKJ.s 			page 49
+ARM GAS  /tmp/ccGt9fNG.s 			page 49
 
 
  2721 01a7 21       		.uleb128 0x21
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2775 01df 21       		.uleb128 0x21
  2776 01e0 00       		.byte	0
  2777 01e1 00       		.byte	0
-ARM GAS  /tmp/ccib2OKJ.s 			page 50
+ARM GAS  /tmp/ccGt9fNG.s 			page 50
 
 
  2778 01e2 00       		.byte	0
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2832 0218 00       		.byte	0
  2833 0219 3F       		.uleb128 0x3f
  2834 021a 19       		.uleb128 0x19
-ARM GAS  /tmp/ccib2OKJ.s 			page 51
+ARM GAS  /tmp/ccGt9fNG.s 			page 51
 
 
  2835 021b 3C       		.uleb128 0x3c
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2889 0063 00000000 		.4byte	0
  2890 0067 00000000 		.4byte	0
  2891              	.LLST2:
-ARM GAS  /tmp/ccib2OKJ.s 			page 52
+ARM GAS  /tmp/ccGt9fNG.s 			page 52
 
 
  2892 006b 0A000000 		.4byte	.LVL48
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2946 001c C8000000 		.4byte	.LFE1
  2947 0020 00000000 		.4byte	.LFB0
  2948 0024 0C000000 		.4byte	.LFE0
-ARM GAS  /tmp/ccib2OKJ.s 			page 53
+ARM GAS  /tmp/ccGt9fNG.s 			page 53
 
 
  2949 0028 00000000 		.4byte	.LFB2
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  2981 0062 7369676E 		.ascii	"signed char\000"
  2981      65642063 
  2981      68617200 
-ARM GAS  /tmp/ccib2OKJ.s 			page 54
+ARM GAS  /tmp/ccGt9fNG.s 			page 54
 
 
  2982              	.LASF67:
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  3007      6B6C696D 
  3007      697400
  3008              	.LASF0:
-ARM GAS  /tmp/ccib2OKJ.s 			page 55
+ARM GAS  /tmp/ccGt9fNG.s 			page 55
 
 
  3009 010b 756E7369 		.ascii	"unsigned int\000"
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  3035      6B5F7400 
  3036              	.LASF66:
  3037 019f 4D757465 		.ascii	"Mutex\000"
-ARM GAS  /tmp/ccib2OKJ.s 			page 56
+ARM GAS  /tmp/ccGt9fNG.s 			page 56
 
 
  3037      7800
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  3063 0230 705F6F6C 		.ascii	"p_older\000"
  3063      64657200 
  3064              	.LASF61:
-ARM GAS  /tmp/ccib2OKJ.s 			page 57
+ARM GAS  /tmp/ccGt9fNG.s 			page 57
 
 
  3065 0238 725F6374 		.ascii	"r_ctx\000"
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  3091      6F5F7400 
  3092              	.LASF111:
  3093 02ce 74687265 		.ascii	"thread\000"
-ARM GAS  /tmp/ccib2OKJ.s 			page 58
+ARM GAS  /tmp/ccGt9fNG.s 			page 58
 
 
  3093      616400
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  3124              	.LASF106:
  3125 035c 474E5520 		.ascii	"GNU C11 5.2.1 20151202 (release) [ARM/embedded-5-br"
  3125      43313120 
-ARM GAS  /tmp/ccib2OKJ.s 			page 59
+ARM GAS  /tmp/ccGt9fNG.s 			page 59
 
 
  3125      352E322E 
@@ -3538,7 +3538,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  3144 04b3 544D3332 		.ascii	"TM32F4xx/_serial\000"
  3144      46347878 
  3144      2F5F7365 
-ARM GAS  /tmp/ccib2OKJ.s 			page 60
+ARM GAS  /tmp/ccGt9fNG.s 			page 60
 
 
  3144      7269616C 
@@ -3598,7 +3598,7 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  3175              	.LASF32:
  3176 0544 705F6E61 		.ascii	"p_name\000"
  3176      6D6500
-ARM GAS  /tmp/ccib2OKJ.s 			page 61
+ARM GAS  /tmp/ccGt9fNG.s 			page 61
 
 
  3177              	.LASF101:
@@ -3624,36 +3624,36 @@ ARM GAS  /tmp/ccib2OKJ.s 			page 1
  3188      6974696E 
  3188      6700
  3189              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.2.1 20151202 (release) [ARM/embedded-5-bran
-ARM GAS  /tmp/ccib2OKJ.s 			page 62
+ARM GAS  /tmp/ccGt9fNG.s 			page 62
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 testthd.c
-     /tmp/ccib2OKJ.s:20     .text.thd1_execute:00000000 $t
-     /tmp/ccib2OKJ.s:25     .text.thd1_execute:00000000 thd1_execute
-     /tmp/ccib2OKJ.s:142    .text.thd1_execute:000000a0 $d
-     /tmp/ccib2OKJ.s:161    .text.thread:00000000 thread
-     /tmp/ccib2OKJ.s:156    .text.thread:00000000 $t
-     /tmp/ccib2OKJ.s:184    .text.thd2_execute:00000000 $t
-     /tmp/ccib2OKJ.s:189    .text.thd2_execute:00000000 thd2_execute
-     /tmp/ccib2OKJ.s:324    .text.thd2_execute:000000b4 $d
-     /tmp/ccib2OKJ.s:338    .text.thd3_execute:00000000 $t
-     /tmp/ccib2OKJ.s:343    .text.thd3_execute:00000000 thd3_execute
-     /tmp/ccib2OKJ.s:556    .text.thd3_execute:00000134 $d
-     /tmp/ccib2OKJ.s:561    .text.thd4_execute:00000000 $t
-     /tmp/ccib2OKJ.s:566    .text.thd4_execute:00000000 thd4_execute
-     /tmp/ccib2OKJ.s:665    .text.thd4_execute:00000074 $d
-     /tmp/ccib2OKJ.s:716    .rodata.patternthd:00000000 patternthd
-     /tmp/ccib2OKJ.s:707    .rodata.testthd4:00000000 testthd4
-     /tmp/ccib2OKJ.s:698    .rodata.testthd3:00000000 testthd3
-     /tmp/ccib2OKJ.s:689    .rodata.testthd2:00000000 testthd2
-     /tmp/ccib2OKJ.s:680    .rodata.testthd1:00000000 testthd1
-     /tmp/ccib2OKJ.s:677    .rodata.testthd1:00000000 $d
-     /tmp/ccib2OKJ.s:686    .rodata.testthd2:00000000 $d
-     /tmp/ccib2OKJ.s:695    .rodata.testthd3:00000000 $d
-     /tmp/ccib2OKJ.s:704    .rodata.testthd4:00000000 $d
-     /tmp/ccib2OKJ.s:713    .rodata.patternthd:00000000 $d
-     /tmp/ccib2OKJ.s:723    .rodata.str1.4:00000000 $d
+     /tmp/ccGt9fNG.s:20     .text.thd1_execute:00000000 $t
+     /tmp/ccGt9fNG.s:25     .text.thd1_execute:00000000 thd1_execute
+     /tmp/ccGt9fNG.s:142    .text.thd1_execute:000000a0 $d
+     /tmp/ccGt9fNG.s:161    .text.thread:00000000 thread
+     /tmp/ccGt9fNG.s:156    .text.thread:00000000 $t
+     /tmp/ccGt9fNG.s:184    .text.thd2_execute:00000000 $t
+     /tmp/ccGt9fNG.s:189    .text.thd2_execute:00000000 thd2_execute
+     /tmp/ccGt9fNG.s:324    .text.thd2_execute:000000b4 $d
+     /tmp/ccGt9fNG.s:338    .text.thd3_execute:00000000 $t
+     /tmp/ccGt9fNG.s:343    .text.thd3_execute:00000000 thd3_execute
+     /tmp/ccGt9fNG.s:556    .text.thd3_execute:00000134 $d
+     /tmp/ccGt9fNG.s:561    .text.thd4_execute:00000000 $t
+     /tmp/ccGt9fNG.s:566    .text.thd4_execute:00000000 thd4_execute
+     /tmp/ccGt9fNG.s:665    .text.thd4_execute:00000074 $d
+     /tmp/ccGt9fNG.s:716    .rodata.patternthd:00000000 patternthd
+     /tmp/ccGt9fNG.s:707    .rodata.testthd4:00000000 testthd4
+     /tmp/ccGt9fNG.s:698    .rodata.testthd3:00000000 testthd3
+     /tmp/ccGt9fNG.s:689    .rodata.testthd2:00000000 testthd2
+     /tmp/ccGt9fNG.s:680    .rodata.testthd1:00000000 testthd1
+     /tmp/ccGt9fNG.s:677    .rodata.testthd1:00000000 $d
+     /tmp/ccGt9fNG.s:686    .rodata.testthd2:00000000 $d
+     /tmp/ccGt9fNG.s:695    .rodata.testthd3:00000000 $d
+     /tmp/ccGt9fNG.s:704    .rodata.testthd4:00000000 $d
+     /tmp/ccGt9fNG.s:713    .rodata.patternthd:00000000 $d
+     /tmp/ccGt9fNG.s:723    .rodata.str1.4:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

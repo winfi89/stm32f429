@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccN9O0aW.s 			page 1
+ARM GAS  /tmp/ccCArruE.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
   55 0020 03F16043 		add	r3, r3, #-536870912
   56 0024 9140     		lsls	r1, r1, r2
   57              	.LVL2:
-ARM GAS  /tmp/ccN9O0aW.s 			page 2
+ARM GAS  /tmp/ccCArruE.s 			page 2
 
 
   58 0026 03F56143 		add	r3, r3, #57600
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  112 0012 A940     		lsls	r1, r1, r5
  113 0014 03F16043 		add	r3, r3, #-536870912
  114 0018 44F82210 		str	r1, [r4, r2, lsl #2]
-ARM GAS  /tmp/ccN9O0aW.s 			page 3
+ARM GAS  /tmp/ccCArruE.s 			page 3
 
 
  115 001c 03F56143 		add	r3, r3, #57600
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  169 0014 9A69     		ldr	r2, [r3, #24]
  170              		.loc 1 78 0
  171 0016 FF24     		movs	r4, #255
-ARM GAS  /tmp/ccN9O0aW.s 			page 4
+ARM GAS  /tmp/ccCArruE.s 			page 4
 
 
  172 0018 8440     		lsls	r4, r4, r0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  226 0044 BD020000 		.4byte	.LASF3
  227 0048 03       		.uleb128 0x3
  228 0049 01       		.byte	0x1
-ARM GAS  /tmp/ccN9O0aW.s 			page 5
+ARM GAS  /tmp/ccCArruE.s 			page 5
 
 
  229 004a 08       		.byte	0x8
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  283 00b4 07       		.uleb128 0x7
  284 00b5 5B010000 		.4byte	.LASF15
  285 00b9 04       		.byte	0x4
-ARM GAS  /tmp/ccN9O0aW.s 			page 6
+ARM GAS  /tmp/ccCArruE.s 			page 6
 
 
  286 00ba 6C       		.byte	0x6c
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  340 012c 75       		.byte	0x75
  341 012d C7010000 		.4byte	0x1c7
  342 0131 0003     		.2byte	0x300
-ARM GAS  /tmp/ccN9O0aW.s 			page 7
+ARM GAS  /tmp/ccCArruE.s 			page 7
 
 
  343 0133 08       		.uleb128 0x8
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  397 01b0 37       		.byte	0x37
  398 01b1 00       		.byte	0
  399 01b2 05       		.uleb128 0x5
-ARM GAS  /tmp/ccN9O0aW.s 			page 8
+ARM GAS  /tmp/ccCArruE.s 			page 8
 
 
  400 01b3 A2010000 		.4byte	0x1a2
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  454 0226 53435200 		.ascii	"SCR\000"
  455 022a 04       		.byte	0x4
  456 022b 8E       		.byte	0x8e
-ARM GAS  /tmp/ccN9O0aW.s 			page 9
+ARM GAS  /tmp/ccCArruE.s 			page 9
 
 
  457 022c 8F000000 		.4byte	0x8f
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  511 0298 8F000000 		.4byte	0x8f
  512 029c 3C       		.byte	0x3c
  513 029d 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccN9O0aW.s 			page 10
+ARM GAS  /tmp/ccCArruE.s 			page 10
 
 
  514 029e 50465200 		.ascii	"PFR\000"
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  568 0310 0B       		.uleb128 0xb
  569 0311 5E010000 		.4byte	0x15e
  570 0315 01       		.byte	0x1
-ARM GAS  /tmp/ccN9O0aW.s 			page 11
+ARM GAS  /tmp/ccCArruE.s 			page 11
 
 
  571 0316 00       		.byte	0
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  625 038f 736800   		.ascii	"sh\000"
  626 0392 01       		.byte	0x1
  627 0393 2F       		.byte	0x2f
-ARM GAS  /tmp/ccN9O0aW.s 			page 12
+ARM GAS  /tmp/ccCArruE.s 			page 12
 
 
  628 0394 2C000000 		.4byte	0x2c
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  682              	.Ldebug_abbrev0:
  683 0000 01       		.uleb128 0x1
  684 0001 11       		.uleb128 0x11
-ARM GAS  /tmp/ccN9O0aW.s 			page 13
+ARM GAS  /tmp/ccCArruE.s 			page 13
 
 
  685 0002 01       		.byte	0x1
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  739 0038 00       		.byte	0
  740 0039 49       		.uleb128 0x49
  741 003a 13       		.uleb128 0x13
-ARM GAS  /tmp/ccN9O0aW.s 			page 14
+ARM GAS  /tmp/ccCArruE.s 			page 14
 
 
  742 003b 00       		.byte	0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  796 0071 49       		.uleb128 0x49
  797 0072 13       		.uleb128 0x13
  798 0073 38       		.uleb128 0x38
-ARM GAS  /tmp/ccN9O0aW.s 			page 15
+ARM GAS  /tmp/ccCArruE.s 			page 15
 
 
  799 0074 05       		.uleb128 0x5
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  853 00aa 38       		.uleb128 0x38
  854 00ab 0B       		.uleb128 0xb
  855 00ac 00       		.byte	0
-ARM GAS  /tmp/ccN9O0aW.s 			page 16
+ARM GAS  /tmp/ccCArruE.s 			page 16
 
 
  856 00ad 00       		.byte	0
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  910 00e4 00       		.byte	0
  911 00e5 00       		.byte	0
  912 00e6 12       		.uleb128 0x12
-ARM GAS  /tmp/ccN9O0aW.s 			page 17
+ARM GAS  /tmp/ccCArruE.s 			page 17
 
 
  913 00e7 34       		.uleb128 0x34
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  967              	.LLST1:
  968 0021 00000000 		.4byte	.LVL0
  969 0025 26000000 		.4byte	.LVL2
-ARM GAS  /tmp/ccN9O0aW.s 			page 18
+ARM GAS  /tmp/ccCArruE.s 			page 18
 
 
  970 0029 0100     		.2byte	0x1
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  1024 0099 00000000 		.4byte	.LVL5
  1025 009d 22000000 		.4byte	.LVL6
  1026 00a1 0700     		.2byte	0x7
-ARM GAS  /tmp/ccN9O0aW.s 			page 19
+ARM GAS  /tmp/ccCArruE.s 			page 19
 
 
  1027 00a3 70       		.byte	0x70
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  1081 010d 1C000000 		.4byte	.LVL12
  1082 0111 28000000 		.4byte	.LFE2
  1083 0115 0400     		.2byte	0x4
-ARM GAS  /tmp/ccN9O0aW.s 			page 20
+ARM GAS  /tmp/ccCArruE.s 			page 20
 
 
  1084 0117 F3       		.byte	0xf3
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  1136      00000201 
  1136      FB0E0D00 
  1136      01010101 
-ARM GAS  /tmp/ccN9O0aW.s 			page 21
+ARM GAS  /tmp/ccCArruE.s 			page 21
 
 
  1137              	.LASF44:
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  1158 0131 56544F52 		.ascii	"VTOR\000"
  1158      00
  1159              	.LASF5:
-ARM GAS  /tmp/ccN9O0aW.s 			page 22
+ARM GAS  /tmp/ccCArruE.s 			page 22
 
 
  1160 0136 73686F72 		.ascii	"short int\000"
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  1190 01c0 53544952 		.ascii	"STIR\000"
  1190      00
  1191              	.LASF10:
-ARM GAS  /tmp/ccN9O0aW.s 			page 23
+ARM GAS  /tmp/ccCArruE.s 			page 23
 
 
  1192 01c5 5F5F7569 		.ascii	"__uint32_t\000"
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  1222 0245 41465352 		.ascii	"AFSR\000"
  1222      00
  1223              	.LASF37:
-ARM GAS  /tmp/ccN9O0aW.s 			page 24
+ARM GAS  /tmp/ccCArruE.s 			page 24
 
 
  1224 024a 4D4D4641 		.ascii	"MMFAR\000"
@@ -1432,18 +1432,18 @@ ARM GAS  /tmp/ccN9O0aW.s 			page 1
  1245      63746F72 
  1245      00
  1246              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.2.1 20151202 (release) [ARM/embedded-5-bran
-ARM GAS  /tmp/ccN9O0aW.s 			page 25
+ARM GAS  /tmp/ccCArruE.s 			page 25
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 nvic.c
-     /tmp/ccN9O0aW.s:20     .text.nvicEnableVector:00000000 $t
-     /tmp/ccN9O0aW.s:26     .text.nvicEnableVector:00000000 nvicEnableVector
-     /tmp/ccN9O0aW.s:85     .text.nvicDisableVector:00000000 $t
-     /tmp/ccN9O0aW.s:91     .text.nvicDisableVector:00000000 nvicDisableVector
-     /tmp/ccN9O0aW.s:136    .text.nvicDisableVector:0000003c $d
-     /tmp/ccN9O0aW.s:141    .text.nvicSetSystemHandlerPriority:00000000 $t
-     /tmp/ccN9O0aW.s:147    .text.nvicSetSystemHandlerPriority:00000000 nvicSetSystemHandlerPriority
+     /tmp/ccCArruE.s:20     .text.nvicEnableVector:00000000 $t
+     /tmp/ccCArruE.s:26     .text.nvicEnableVector:00000000 nvicEnableVector
+     /tmp/ccCArruE.s:85     .text.nvicDisableVector:00000000 $t
+     /tmp/ccCArruE.s:91     .text.nvicDisableVector:00000000 nvicDisableVector
+     /tmp/ccCArruE.s:136    .text.nvicDisableVector:0000003c $d
+     /tmp/ccCArruE.s:141    .text.nvicSetSystemHandlerPriority:00000000 $t
+     /tmp/ccCArruE.s:147    .text.nvicSetSystemHandlerPriority:00000000 nvicSetSystemHandlerPriority
                      .debug_frame:00000010 $d
 
 NO UNDEFINED SYMBOLS

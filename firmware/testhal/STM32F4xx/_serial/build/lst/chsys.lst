@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccZb8Ef3.s 			page 1
+ARM GAS  /tmp/cc8ebVGH.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
   55              		.thumb
   56              		.thumb_func
   57              		.type	chSysInit, %function
-ARM GAS  /tmp/ccZb8Ef3.s 			page 2
+ARM GAS  /tmp/cc8ebVGH.s 			page 2
 
 
   58              	chSysInit:
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  112              		.syntax unified
  113              	.LBE2:
  114              		.loc 1 115 0
-ARM GAS  /tmp/ccZb8Ef3.s 			page 3
+ARM GAS  /tmp/cc8ebVGH.s 			page 3
 
 
  115 003a AA69     		ldr	r2, [r5, #24]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  169              		.loc 1 150 0
  170 0008 124D     		ldr	r5, .L17+4
  171              		.loc 1 148 0
-ARM GAS  /tmp/ccZb8Ef3.s 			page 4
+ARM GAS  /tmp/cc8ebVGH.s 			page 4
 
 
  172 000a 9A69     		ldr	r2, [r3, #24]
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  226              	.LVL16:
  227              	.L10:
  228 004e F8BD     		pop	{r3, r4, r5, r6, r7, pc}
-ARM GAS  /tmp/ccZb8Ef3.s 			page 5
+ARM GAS  /tmp/cc8ebVGH.s 			page 5
 
 
  229              	.L18:
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  274 0004 0400     		.2byte	0x4
  275 0006 00000000 		.4byte	.Ldebug_abbrev0
  276 000a 04       		.byte	0x4
-ARM GAS  /tmp/ccZb8Ef3.s 			page 6
+ARM GAS  /tmp/cc8ebVGH.s 			page 6
 
 
  277 000b 01       		.uleb128 0x1
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  331 007a 7E000000 		.4byte	0x7e
  332 007e 03       		.uleb128 0x3
  333 007f 04       		.byte	0x4
-ARM GAS  /tmp/ccZb8Ef3.s 			page 7
+ARM GAS  /tmp/cc8ebVGH.s 			page 7
 
 
  334 0080 05       		.byte	0x5
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  388 00f2 04       		.uleb128 0x4
  389 00f3 3C010000 		.4byte	.LASF22
  390 00f7 04       		.byte	0x4
-ARM GAS  /tmp/ccZb8Ef3.s 			page 8
+ARM GAS  /tmp/cc8ebVGH.s 			page 8
 
 
  391 00f8 2D       		.byte	0x2d
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  445 016a 64       		.byte	0x64
  446 016b FF020000 		.4byte	0x2ff
  447 016f 0C       		.byte	0xc
-ARM GAS  /tmp/ccZb8Ef3.s 			page 9
+ARM GAS  /tmp/cc8ebVGH.s 			page 9
 
 
  448 0170 06       		.uleb128 0x6
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  502 01dc 06       		.uleb128 0x6
  503 01dd 6A050000 		.4byte	.LASF40
  504 01e1 06       		.byte	0x6
-ARM GAS  /tmp/ccZb8Ef3.s 			page 10
+ARM GAS  /tmp/cc8ebVGH.s 			page 10
 
 
  505 01e2 BF       		.byte	0xbf
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  559 024b 08       		.uleb128 0x8
  560 024c 04       		.byte	0x4
  561 024d 05       		.byte	0x5
-ARM GAS  /tmp/ccZb8Ef3.s 			page 11
+ARM GAS  /tmp/cc8ebVGH.s 			page 11
 
 
  562 024e 6B       		.byte	0x6b
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  616 02bb 6B020000 		.4byte	0x26b
  617 02bf 0C       		.byte	0xc
  618 02c0 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccZb8Ef3.s 			page 12
+ARM GAS  /tmp/cc8ebVGH.s 			page 12
 
 
  619 02c1 723800   		.ascii	"r8\000"
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  673 032e 32030000 		.4byte	0x332
  674 0332 09       		.uleb128 0x9
  675 0333 04       		.byte	0x4
-ARM GAS  /tmp/ccZb8Ef3.s 			page 13
+ARM GAS  /tmp/cc8ebVGH.s 			page 13
 
 
  676 0334 38030000 		.4byte	0x338
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  730 03a0 76       		.byte	0x76
  731 03a1 D6030000 		.4byte	0x3d6
  732 03a5 06       		.uleb128 0x6
-ARM GAS  /tmp/ccZb8Ef3.s 			page 14
+ARM GAS  /tmp/cc8ebVGH.s 			page 14
 
 
  733 03a6 BB010000 		.4byte	.LASF54
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  787 0412 06       		.uleb128 0x6
  788 0413 14020000 		.4byte	.LASF64
  789 0417 09       		.byte	0x9
-ARM GAS  /tmp/ccZb8Ef3.s 			page 15
+ARM GAS  /tmp/cc8ebVGH.s 			page 15
 
 
  790 0418 65       		.byte	0x65
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  844 0484 10       		.uleb128 0x10
  845 0485 04       		.byte	0x4
  846 0486 06       		.byte	0x6
-ARM GAS  /tmp/ccZb8Ef3.s 			page 16
+ARM GAS  /tmp/cc8ebVGH.s 			page 16
 
 
  847 0487 96       		.byte	0x96
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  901 04f9 0B       		.byte	0xb
  902 04fa 2C       		.byte	0x2c
  903 04fb D8050000 		.4byte	0x5d8
-ARM GAS  /tmp/ccZb8Ef3.s 			page 17
+ARM GAS  /tmp/cc8ebVGH.s 			page 17
 
 
  904 04ff 06       		.uleb128 0x6
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  958 056b 06       		.uleb128 0x6
  959 056c A2030000 		.4byte	.LASF87
  960 0570 0B       		.byte	0xb
-ARM GAS  /tmp/ccZb8Ef3.s 			page 18
+ARM GAS  /tmp/cc8ebVGH.s 			page 18
 
 
  961 0571 36       		.byte	0x36
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1015 05dd E8050000 		.4byte	0x5e8
  1016 05e1 15       		.uleb128 0x15
  1017 05e2 20030000 		.4byte	0x320
-ARM GAS  /tmp/ccZb8Ef3.s 			page 19
+ARM GAS  /tmp/cc8ebVGH.s 			page 19
 
 
  1018 05e6 03       		.byte	0x3
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1072 0659 CA000000 		.4byte	0xca
  1073 065d 01       		.uleb128 0x1
  1074 065e 53       		.byte	0x53
-ARM GAS  /tmp/ccZb8Ef3.s 			page 20
+ARM GAS  /tmp/cc8ebVGH.s 			page 20
 
 
  1075 065f 00       		.byte	0
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1129 06ce 02       		.uleb128 0x2
  1130 06cf 74       		.byte	0x74
  1131 06d0 00       		.sleb128 0
-ARM GAS  /tmp/ccZb8Ef3.s 			page 21
+ARM GAS  /tmp/cc8ebVGH.s 			page 21
 
 
  1132 06d1 1F       		.uleb128 0x1f
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1186 0745 00       		.byte	0
  1187 0746 1D       		.uleb128 0x1d
  1188 0747 06000000 		.4byte	.LVL9
-ARM GAS  /tmp/ccZb8Ef3.s 			page 22
+ARM GAS  /tmp/cc8ebVGH.s 			page 22
 
 
  1189 074b 13080000 		.4byte	0x813
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1243 07c4 26       		.uleb128 0x26
  1244 07c5 3C030000 		.4byte	.LASF108
  1245 07c9 3C030000 		.4byte	.LASF108
-ARM GAS  /tmp/ccZb8Ef3.s 			page 23
+ARM GAS  /tmp/cc8ebVGH.s 			page 23
 
 
  1246 07cd 0C       		.byte	0xc
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1300 000e 01       		.uleb128 0x1
  1301 000f 10       		.uleb128 0x10
  1302 0010 17       		.uleb128 0x17
-ARM GAS  /tmp/ccZb8Ef3.s 			page 24
+ARM GAS  /tmp/cc8ebVGH.s 			page 24
 
 
  1303 0011 00       		.byte	0
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1357 0047 00       		.byte	0
  1358 0048 03       		.uleb128 0x3
  1359 0049 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccZb8Ef3.s 			page 25
+ARM GAS  /tmp/cc8ebVGH.s 			page 25
 
 
  1360 004a 3A       		.uleb128 0x3a
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1414 0080 0B       		.uleb128 0xb
  1415 0081 13       		.uleb128 0x13
  1416 0082 01       		.byte	0x1
-ARM GAS  /tmp/ccZb8Ef3.s 			page 26
+ARM GAS  /tmp/cc8ebVGH.s 			page 26
 
 
  1417 0083 03       		.uleb128 0x3
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1471 00b9 0B       		.uleb128 0xb
  1472 00ba 3A       		.uleb128 0x3a
  1473 00bb 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccZb8Ef3.s 			page 27
+ARM GAS  /tmp/cc8ebVGH.s 			page 27
 
 
  1474 00bc 3B       		.uleb128 0x3b
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1528 00f2 00       		.byte	0
  1529 00f3 16       		.uleb128 0x16
  1530 00f4 2E       		.uleb128 0x2e
-ARM GAS  /tmp/ccZb8Ef3.s 			page 28
+ARM GAS  /tmp/cc8ebVGH.s 			page 28
 
 
  1531 00f5 01       		.byte	0x1
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1585 012d 01       		.uleb128 0x1
  1586 012e 12       		.uleb128 0x12
  1587 012f 06       		.uleb128 0x6
-ARM GAS  /tmp/ccZb8Ef3.s 			page 29
+ARM GAS  /tmp/cc8ebVGH.s 			page 29
 
 
  1588 0130 40       		.uleb128 0x40
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1642 0167 03       		.uleb128 0x3
  1643 0168 08       		.uleb128 0x8
  1644 0169 3A       		.uleb128 0x3a
-ARM GAS  /tmp/ccZb8Ef3.s 			page 30
+ARM GAS  /tmp/cc8ebVGH.s 			page 30
 
 
  1645 016a 0B       		.uleb128 0xb
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1699 01a9 3B       		.uleb128 0x3b
  1700 01aa 0B       		.uleb128 0xb
  1701 01ab 49       		.uleb128 0x49
-ARM GAS  /tmp/ccZb8Ef3.s 			page 31
+ARM GAS  /tmp/cc8ebVGH.s 			page 31
 
 
  1702 01ac 13       		.uleb128 0x13
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1756 01e5 05       		.uleb128 0x5
  1757 01e6 00       		.byte	0
  1758 01e7 00       		.byte	0
-ARM GAS  /tmp/ccZb8Ef3.s 			page 32
+ARM GAS  /tmp/cc8ebVGH.s 			page 32
 
 
  1759 01e8 26       		.uleb128 0x26
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1813 0008 00000000 		.4byte	.LFB1
  1814 000c 6C000000 		.4byte	.LFE1
  1815 0010 00000000 		.4byte	.LFB2
-ARM GAS  /tmp/ccZb8Ef3.s 			page 33
+ARM GAS  /tmp/cc8ebVGH.s 			page 33
 
 
  1816 0014 58000000 		.4byte	.LFE2
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1843      636F6465 
  1843      00
  1844              	.LASF97:
-ARM GAS  /tmp/ccZb8Ef3.s 			page 34
+ARM GAS  /tmp/cc8ebVGH.s 			page 34
 
 
  1845 007e 6D61696E 		.ascii	"mainthread\000"
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1867      7200
  1868              	.LASF10:
  1869 0133 6C6F6E67 		.ascii	"long int\000"
-ARM GAS  /tmp/ccZb8Ef3.s 			page 35
+ARM GAS  /tmp/cc8ebVGH.s 			page 35
 
 
  1869      20696E74 
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1896              	.LASF12:
  1897 01c3 6C6F6E67 		.ascii	"long unsigned int\000"
  1897      20756E73 
-ARM GAS  /tmp/ccZb8Ef3.s 			page 36
+ARM GAS  /tmp/cc8ebVGH.s 			page 36
 
 
  1897      69676E65 
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1924              	.LASF112:
  1925 025e 63685468 		.ascii	"chThdCreateStatic\000"
  1925      64437265 
-ARM GAS  /tmp/ccZb8Ef3.s 			page 37
+ARM GAS  /tmp/cc8ebVGH.s 			page 37
 
 
  1925      61746553 
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1953      00
  1954              	.LASF13:
  1955 02fb 5F5F7569 		.ascii	"__uint64_t\000"
-ARM GAS  /tmp/ccZb8Ef3.s 			page 38
+ARM GAS  /tmp/cc8ebVGH.s 			page 38
 
 
  1955      6E743634 
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  1985      7265656D 
  1985      707400
  1986              	.LASF37:
-ARM GAS  /tmp/ccZb8Ef3.s 			page 39
+ARM GAS  /tmp/cc8ebVGH.s 			page 39
 
 
  1987 0393 705F666C 		.ascii	"p_flags\000"
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  2007      00
  2008              	.LASF76:
  2009 04be 63686172 		.ascii	"char\000"
-ARM GAS  /tmp/ccZb8Ef3.s 			page 40
+ARM GAS  /tmp/cc8ebVGH.s 			page 40
 
 
  2009      00
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  2034      6B5F656E 
  2034      61626C65 
  2034      00
-ARM GAS  /tmp/ccZb8Ef3.s 			page 41
+ARM GAS  /tmp/cc8ebVGH.s 			page 41
 
 
  2035              	.LASF58:
@@ -2458,29 +2458,29 @@ ARM GAS  /tmp/ccZb8Ef3.s 			page 1
  2066 0613 705F7761 		.ascii	"p_waiting\000"
  2066      6974696E 
  2066      6700
-ARM GAS  /tmp/ccZb8Ef3.s 			page 42
+ARM GAS  /tmp/cc8ebVGH.s 			page 42
 
 
  2067              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.2.1 20151202 (release) [ARM/embedded-5-bran
-ARM GAS  /tmp/ccZb8Ef3.s 			page 43
+ARM GAS  /tmp/cc8ebVGH.s 			page 43
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chsys.c
-     /tmp/ccZb8Ef3.s:20     .text._idle_thread:00000000 $t
-     /tmp/ccZb8Ef3.s:26     .text._idle_thread:00000000 _idle_thread
-     /tmp/ccZb8Ef3.s:46     .text._idle_thread:0000000c $d
-     /tmp/ccZb8Ef3.s:52     .text.chSysInit:00000000 $t
-     /tmp/ccZb8Ef3.s:58     .text.chSysInit:00000000 chSysInit
-     /tmp/ccZb8Ef3.s:134    .text.chSysInit:00000054 $d
-     /tmp/ccZb8Ef3.s:144    .text.chSysTimerHandlerI:00000000 $t
-     /tmp/ccZb8Ef3.s:150    .text.chSysTimerHandlerI:00000000 chSysTimerHandlerI
-     /tmp/ccZb8Ef3.s:232    .text.chSysTimerHandlerI:00000050 $d
-     /tmp/ccZb8Ef3.s:255    .bss._idle_thread_wa:00000000 _idle_thread_wa
-     /tmp/ccZb8Ef3.s:240    .bss.mainthread.4865:00000000 $d
-     /tmp/ccZb8Ef3.s:244    .bss.mainthread.4865:00000000 mainthread.4865
-     /tmp/ccZb8Ef3.s:247    .rodata.str1.4:00000000 $d
-     /tmp/ccZb8Ef3.s:251    .bss._idle_thread_wa:00000000 $d
+     /tmp/cc8ebVGH.s:20     .text._idle_thread:00000000 $t
+     /tmp/cc8ebVGH.s:26     .text._idle_thread:00000000 _idle_thread
+     /tmp/cc8ebVGH.s:46     .text._idle_thread:0000000c $d
+     /tmp/cc8ebVGH.s:52     .text.chSysInit:00000000 $t
+     /tmp/cc8ebVGH.s:58     .text.chSysInit:00000000 chSysInit
+     /tmp/cc8ebVGH.s:134    .text.chSysInit:00000054 $d
+     /tmp/cc8ebVGH.s:144    .text.chSysTimerHandlerI:00000000 $t
+     /tmp/cc8ebVGH.s:150    .text.chSysTimerHandlerI:00000000 chSysTimerHandlerI
+     /tmp/cc8ebVGH.s:232    .text.chSysTimerHandlerI:00000050 $d
+     /tmp/cc8ebVGH.s:255    .bss._idle_thread_wa:00000000 _idle_thread_wa
+     /tmp/cc8ebVGH.s:240    .bss.mainthread.4865:00000000 $d
+     /tmp/cc8ebVGH.s:244    .bss.mainthread.4865:00000000 mainthread.4865
+     /tmp/cc8ebVGH.s:247    .rodata.str1.4:00000000 $d
+     /tmp/cc8ebVGH.s:251    .bss._idle_thread_wa:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

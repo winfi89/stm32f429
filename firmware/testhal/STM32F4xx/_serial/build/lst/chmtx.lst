@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccpGg46a.s 			page 1
+ARM GAS  /tmp/ccnA7dYw.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
   55              	.LVL3:
   56 0012 FFF7FEFF 		bl	chDbgPanic
   57              	.LVL4:
-ARM GAS  /tmp/ccpGg46a.s 			page 2
+ARM GAS  /tmp/ccnA7dYw.s 			page 2
 
 
   58 0016 F6E7     		b	.L2
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  112              		.loc 1 139 0
  113 001e 94F82020 		ldrb	r2, [r4, #32]	@ zero_extendqisi2
  114              		.loc 1 137 0
-ARM GAS  /tmp/ccpGg46a.s 			page 3
+ARM GAS  /tmp/ccnA7dYw.s 			page 3
 
 
  115 0022 A360     		str	r3, [r4, #8]
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  169              	.LVL14:
  170 005c A16A     		ldr	r1, [r4, #40]
  171 005e FFF7FEFF 		bl	prio_insert
-ARM GAS  /tmp/ccpGg46a.s 			page 4
+ARM GAS  /tmp/ccnA7dYw.s 			page 4
 
 
  172              	.LVL15:
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  226 00a0 20000000 		.word	.LC2
  227 00a4 34000000 		.word	.LC3
  228 00a8 10000000 		.word	.LC1
-ARM GAS  /tmp/ccpGg46a.s 			page 5
+ARM GAS  /tmp/ccnA7dYw.s 			page 5
 
 
  229              		.cfi_endproc
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  283              		.thumb_func
  284              		.type	chMtxTryLockS, %function
  285              	chMtxTryLockS:
-ARM GAS  /tmp/ccpGg46a.s 			page 6
+ARM GAS  /tmp/ccnA7dYw.s 			page 6
 
 
  286              	.LFB4:
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  340 0030 48000000 		.word	.LC4
  341              		.cfi_endproc
  342              	.LFE4:
-ARM GAS  /tmp/ccpGg46a.s 			page 7
+ARM GAS  /tmp/ccnA7dYw.s 			page 7
 
 
  343              		.size	chMtxTryLockS, .-chMtxTryLockS
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  397              		.global	chMtxUnlock
  398              		.thumb
  399              		.thumb_func
-ARM GAS  /tmp/ccpGg46a.s 			page 8
+ARM GAS  /tmp/ccnA7dYw.s 			page 8
 
 
  400              		.type	chMtxUnlock, %function
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  454              	.LVL42:
  455              		.loc 1 280 0
  456 002e 4BB1     		cbz	r3, .L44
-ARM GAS  /tmp/ccpGg46a.s 			page 9
+ARM GAS  /tmp/ccnA7dYw.s 			page 9
 
 
  457              	.L46:
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  511 0066 0023     		movs	r3, #0
  512 0068 A360     		str	r3, [r4, #8]
  513              		.loc 1 301 0
-ARM GAS  /tmp/ccpGg46a.s 			page 10
+ARM GAS  /tmp/ccnA7dYw.s 			page 10
 
 
  514 006a FFF7FEFF 		bl	dbg_check_unlock
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  568              		.loc 1 322 0
  569 000a 2C6C     		ldr	r4, [r5, #64]
  570 000c 3CB3     		cbz	r4, .L69
-ARM GAS  /tmp/ccpGg46a.s 			page 11
+ARM GAS  /tmp/ccnA7dYw.s 			page 11
 
 
  571              	.L57:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  625              		.loc 1 353 0
  626 0048 A060     		str	r0, [r4, #8]
  627              		.loc 1 354 0
-ARM GAS  /tmp/ccpGg46a.s 			page 12
+ARM GAS  /tmp/ccnA7dYw.s 			page 12
 
 
  628 004a E260     		str	r2, [r4, #12]
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  682              		.cfi_offset 5, -12
  683              		.cfi_offset 6, -8
  684              		.cfi_offset 14, -4
-ARM GAS  /tmp/ccpGg46a.s 			page 13
+ARM GAS  /tmp/ccnA7dYw.s 			page 13
 
 
  685              		.loc 1 375 0
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  739 0032 2046     		mov	r0, r4
  740              	.LBE12:
  741              		.loc 1 382 0
-ARM GAS  /tmp/ccpGg46a.s 			page 14
+ARM GAS  /tmp/ccnA7dYw.s 			page 14
 
 
  742 0034 EFD1     		bne	.L83
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  786 0031 000000   		.space	3
  787              	.LC3:
  788 0034 63684D74 		.ascii	"chMtxLockS(), #2\000"
-ARM GAS  /tmp/ccpGg46a.s 			page 15
+ARM GAS  /tmp/ccnA7dYw.s 			page 15
 
 
  788      784C6F63 
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  819 0006 00000000 		.4byte	.Ldebug_abbrev0
  820 000a 04       		.byte	0x4
  821 000b 01       		.uleb128 0x1
-ARM GAS  /tmp/ccpGg46a.s 			page 16
+ARM GAS  /tmp/ccnA7dYw.s 			page 16
 
 
  822 000c C7020000 		.4byte	.LASF86
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  876 007b EA000000 		.4byte	.LASF10
  877 007f 02       		.byte	0x2
  878 0080 41       		.byte	0x41
-ARM GAS  /tmp/ccpGg46a.s 			page 17
+ARM GAS  /tmp/ccnA7dYw.s 			page 17
 
 
  879 0081 85000000 		.4byte	0x85
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  933 00f3 3D020000 		.4byte	.LASF22
  934 00f7 04       		.byte	0x4
  935 00f8 30       		.byte	0x30
-ARM GAS  /tmp/ccpGg46a.s 			page 18
+ARM GAS  /tmp/ccnA7dYw.s 			page 18
 
 
  936 00f9 B4000000 		.4byte	0xb4
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  990 016b 66       		.byte	0x66
  991 016c 2F020000 		.4byte	0x22f
  992 0170 10       		.byte	0x10
-ARM GAS  /tmp/ccpGg46a.s 			page 19
+ARM GAS  /tmp/ccnA7dYw.s 			page 19
 
 
  993 0171 06       		.uleb128 0x6
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1047 01dd 06       		.uleb128 0x6
  1048 01de 1F000000 		.4byte	.LASF40
  1049 01e2 06       		.byte	0x6
-ARM GAS  /tmp/ccpGg46a.s 			page 20
+ARM GAS  /tmp/ccnA7dYw.s 			page 20
 
 
  1050 01e3 C3       		.byte	0xc3
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1104 0249 8B020000 		.4byte	.LASF27
  1105 024d 05       		.byte	0x5
  1106 024e 6D       		.byte	0x6d
-ARM GAS  /tmp/ccpGg46a.s 			page 21
+ARM GAS  /tmp/ccnA7dYw.s 			page 21
 
 
  1107 024f 2F020000 		.4byte	0x22f
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1161 02bc 60020000 		.4byte	0x260
  1162 02c0 10       		.byte	0x10
  1163 02c1 0C       		.uleb128 0xc
-ARM GAS  /tmp/ccpGg46a.s 			page 22
+ARM GAS  /tmp/ccnA7dYw.s 			page 22
 
 
  1164 02c2 723900   		.ascii	"r9\000"
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1218 032f 5F       		.byte	0x5f
  1219 0330 35020000 		.4byte	0x235
  1220 0334 00       		.byte	0
-ARM GAS  /tmp/ccpGg46a.s 			page 23
+ARM GAS  /tmp/ccnA7dYw.s 			page 23
 
 
  1221 0335 06       		.uleb128 0x6
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1275 03a1 06       		.uleb128 0x6
  1276 03a2 13040000 		.4byte	.LASF61
  1277 03a6 09       		.byte	0x9
-ARM GAS  /tmp/ccpGg46a.s 			page 24
+ARM GAS  /tmp/ccnA7dYw.s 			page 24
 
 
  1278 03a7 31       		.byte	0x31
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1332 0413 C3000000 		.4byte	.LASF89
  1333 0417 01       		.byte	0x1
  1334 0418 EA       		.byte	0xea
-ARM GAS  /tmp/ccpGg46a.s 			page 25
+ARM GAS  /tmp/ccnA7dYw.s 			page 25
 
 
  1335 0419 CA000000 		.4byte	0xca
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1389 048e 2F020000 		.4byte	0x22f
  1390 0492 6B000000 		.4byte	.LLST2
  1391 0496 18       		.uleb128 0x18
-ARM GAS  /tmp/ccpGg46a.s 			page 26
+ARM GAS  /tmp/ccnA7dYw.s 			page 26
 
 
  1392 0497 00000000 		.4byte	.Ldebug_ranges0+0
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1446 0502 03       		.byte	0x3
  1447 0503 34000000 		.4byte	.LC3
  1448 0507 00       		.byte	0
-ARM GAS  /tmp/ccpGg46a.s 			page 27
+ARM GAS  /tmp/ccnA7dYw.s 			page 27
 
 
  1449 0508 1B       		.uleb128 0x1b
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1503 0582 12000000 		.4byte	.LVL24
  1504 0586 64040000 		.4byte	0x464
  1505 058a 95050000 		.4byte	0x595
-ARM GAS  /tmp/ccpGg46a.s 			page 28
+ARM GAS  /tmp/ccnA7dYw.s 			page 28
 
 
  1506 058e 16       		.uleb128 0x16
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1560 0609 6D7000   		.ascii	"mp\000"
  1561 060c 01       		.byte	0x1
  1562 060d CE       		.byte	0xce
-ARM GAS  /tmp/ccpGg46a.s 			page 29
+ARM GAS  /tmp/ccnA7dYw.s 			page 29
 
 
  1563 060e 0C040000 		.4byte	0x40c
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1617 0687 0C040000 		.4byte	0x40c
  1618 068b 42010000 		.4byte	.LLST9
  1619 068f 1E       		.uleb128 0x1e
-ARM GAS  /tmp/ccpGg46a.s 			page 30
+ARM GAS  /tmp/ccnA7dYw.s 			page 30
 
 
  1620 0690 2C000000 		.4byte	.LBB8
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1674 0709 6E000000 		.4byte	.LVL49
  1675 070d C5080000 		.4byte	0x8c5
  1676 0711 15       		.uleb128 0x15
-ARM GAS  /tmp/ccpGg46a.s 			page 31
+ARM GAS  /tmp/ccnA7dYw.s 			page 31
 
 
  1677 0712 7C000000 		.4byte	.LVL51
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1731 0794 B6010000 		.4byte	.LLST15
  1732 0798 19       		.uleb128 0x19
  1733 0799 46000000 		.4byte	.LVL60
-ARM GAS  /tmp/ccpGg46a.s 			page 32
+ARM GAS  /tmp/ccnA7dYw.s 			page 32
 
 
  1734 079d D0080000 		.4byte	0x8d0
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1788 0811 18000000 		.4byte	.Ldebug_ranges0+0x18
  1789 0815 51080000 		.4byte	0x851
  1790 0819 23       		.uleb128 0x23
-ARM GAS  /tmp/ccpGg46a.s 			page 33
+ARM GAS  /tmp/ccnA7dYw.s 			page 33
 
 
  1791 081a 756D7000 		.ascii	"ump\000"
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1845 08a2 05       		.byte	0x5
  1846 08a3 7B       		.byte	0x7b
  1847 08a4 28       		.uleb128 0x28
-ARM GAS  /tmp/ccpGg46a.s 			page 34
+ARM GAS  /tmp/ccnA7dYw.s 			page 34
 
 
  1848 08a5 B2030000 		.4byte	.LASF79
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1902 0011 00       		.byte	0
  1903 0012 00       		.byte	0
  1904 0013 02       		.uleb128 0x2
-ARM GAS  /tmp/ccpGg46a.s 			page 35
+ARM GAS  /tmp/ccnA7dYw.s 			page 35
 
 
  1905 0014 24       		.uleb128 0x24
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  1959 004a 3A       		.uleb128 0x3a
  1960 004b 0B       		.uleb128 0xb
  1961 004c 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccpGg46a.s 			page 36
+ARM GAS  /tmp/ccnA7dYw.s 			page 36
 
 
  1962 004d 0B       		.uleb128 0xb
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2016 0083 03       		.uleb128 0x3
  2017 0084 0E       		.uleb128 0xe
  2018 0085 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccpGg46a.s 			page 37
+ARM GAS  /tmp/ccnA7dYw.s 			page 37
 
 
  2019 0086 0B       		.uleb128 0xb
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2073 00bc 13       		.uleb128 0x13
  2074 00bd 00       		.byte	0
  2075 00be 00       		.byte	0
-ARM GAS  /tmp/ccpGg46a.s 			page 38
+ARM GAS  /tmp/ccnA7dYw.s 			page 38
 
 
  2076 00bf 10       		.uleb128 0x10
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2130 00f5 11       		.uleb128 0x11
  2131 00f6 01       		.uleb128 0x1
  2132 00f7 12       		.uleb128 0x12
-ARM GAS  /tmp/ccpGg46a.s 			page 39
+ARM GAS  /tmp/ccnA7dYw.s 			page 39
 
 
  2133 00f8 06       		.uleb128 0x6
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2187 0134 17       		.uleb128 0x17
  2188 0135 00       		.byte	0
  2189 0136 00       		.byte	0
-ARM GAS  /tmp/ccpGg46a.s 			page 40
+ARM GAS  /tmp/ccnA7dYw.s 			page 40
 
 
  2190 0137 18       		.uleb128 0x18
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2244 0175 19       		.uleb128 0x19
  2245 0176 01       		.uleb128 0x1
  2246 0177 13       		.uleb128 0x13
-ARM GAS  /tmp/ccpGg46a.s 			page 41
+ARM GAS  /tmp/ccnA7dYw.s 			page 41
 
 
  2247 0178 00       		.byte	0
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2301 01af 3A       		.uleb128 0x3a
  2302 01b0 0B       		.uleb128 0xb
  2303 01b1 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccpGg46a.s 			page 42
+ARM GAS  /tmp/ccnA7dYw.s 			page 42
 
 
  2304 01b2 0B       		.uleb128 0xb
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2358 01e9 3A       		.uleb128 0x3a
  2359 01ea 0B       		.uleb128 0xb
  2360 01eb 3B       		.uleb128 0x3b
-ARM GAS  /tmp/ccpGg46a.s 			page 43
+ARM GAS  /tmp/ccnA7dYw.s 			page 43
 
 
  2361 01ec 05       		.uleb128 0x5
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2415 0223 27       		.uleb128 0x27
  2416 0224 34       		.uleb128 0x34
  2417 0225 00       		.byte	0
-ARM GAS  /tmp/ccpGg46a.s 			page 44
+ARM GAS  /tmp/ccnA7dYw.s 			page 44
 
 
  2418 0226 03       		.uleb128 0x3
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2472 0034 00000000 		.4byte	.LVL5
  2473 0038 0B000000 		.4byte	.LVL7-1
  2474 003c 0100     		.2byte	0x1
-ARM GAS  /tmp/ccpGg46a.s 			page 45
+ARM GAS  /tmp/ccnA7dYw.s 			page 45
 
 
  2475 003e 50       		.byte	0x50
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2529 00cc 00000000 		.4byte	0
  2530              	.LLST5:
  2531 00d0 00000000 		.4byte	.LVL26
-ARM GAS  /tmp/ccpGg46a.s 			page 46
+ARM GAS  /tmp/ccnA7dYw.s 			page 46
 
 
  2532 00d4 07000000 		.4byte	.LVL27-1
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2586 0160 00000000 		.4byte	0
  2587 0164 00000000 		.4byte	0
  2588              	.LLST11:
-ARM GAS  /tmp/ccpGg46a.s 			page 47
+ARM GAS  /tmp/ccnA7dYw.s 			page 47
 
 
  2589 0168 2E000000 		.4byte	.LVL42
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2643 01fb 50       		.byte	0x50
  2644 01fc 00000000 		.4byte	0
  2645 0200 00000000 		.4byte	0
-ARM GAS  /tmp/ccpGg46a.s 			page 48
+ARM GAS  /tmp/ccnA7dYw.s 			page 48
 
 
  2646              		.section	.debug_aranges,"",%progbits
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2700 0068 00000000 		.4byte	.LFB3
  2701 006c 20000000 		.4byte	.LFE3
  2702 0070 00000000 		.4byte	.LFB5
-ARM GAS  /tmp/ccpGg46a.s 			page 49
+ARM GAS  /tmp/ccnA7dYw.s 			page 49
 
 
  2703 0074 8C000000 		.4byte	.LFE5
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2732      696F00
  2733              	.LASF1:
  2734 007d 6C6F6E67 		.ascii	"long long int\000"
-ARM GAS  /tmp/ccpGg46a.s 			page 50
+ARM GAS  /tmp/ccnA7dYw.s 			page 50
 
 
  2734      206C6F6E 
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2760      20696E74 
  2760      00
  2761              	.LASF11:
-ARM GAS  /tmp/ccpGg46a.s 			page 51
+ARM GAS  /tmp/ccnA7dYw.s 			page 51
 
 
  2762 0116 6C6F6E67 		.ascii	"long unsigned int\000"
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2788 01ac 73746B61 		.ascii	"stkalign_t\000"
  2788      6C69676E 
  2788      5F7400
-ARM GAS  /tmp/ccpGg46a.s 			page 52
+ARM GAS  /tmp/ccnA7dYw.s 			page 52
 
 
  2789              	.LASF50:
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2817              	.LASF19:
  2818 0245 5F426F6F 		.ascii	"_Bool\000"
  2818      6C00
-ARM GAS  /tmp/ccpGg46a.s 			page 53
+ARM GAS  /tmp/ccnA7dYw.s 			page 53
 
 
  2819              	.LASF15:
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2847 02fa 616E6368 		.ascii	"anch revision 231848] -mcpu=cortex-m4 -mno-thumb-in"
  2847      20726576 
  2847      6973696F 
-ARM GAS  /tmp/ccpGg46a.s 			page 54
+ARM GAS  /tmp/ccnA7dYw.s 			page 54
 
 
  2847      6E203233 
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2869      616C7072 
  2869      696F00
  2870              	.LASF8:
-ARM GAS  /tmp/ccpGg46a.s 			page 55
+ARM GAS  /tmp/ccnA7dYw.s 			page 55
 
 
  2871 042f 5F5F696E 		.ascii	"__int32_t\000"
@@ -3294,34 +3294,34 @@ ARM GAS  /tmp/ccpGg46a.s 			page 1
  2899      6974696E 
  2899      6700
  2900              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.2.1 20151202 (release) [ARM/embedded-5-bran
-ARM GAS  /tmp/ccpGg46a.s 			page 56
+ARM GAS  /tmp/ccnA7dYw.s 			page 56
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chmtx.c
-     /tmp/ccpGg46a.s:20     .text.chMtxInit:00000000 $t
-     /tmp/ccpGg46a.s:26     .text.chMtxInit:00000000 chMtxInit
-     /tmp/ccpGg46a.s:62     .text.chMtxInit:00000018 $d
-     /tmp/ccpGg46a.s:67     .text.chMtxLockS:00000000 $t
-     /tmp/ccpGg46a.s:73     .text.chMtxLockS:00000000 chMtxLockS
-     /tmp/ccpGg46a.s:225    .text.chMtxLockS:0000009c $d
-     /tmp/ccpGg46a.s:233    .text.chMtxLock:00000000 $t
-     /tmp/ccpGg46a.s:239    .text.chMtxLock:00000000 chMtxLock
-     /tmp/ccpGg46a.s:279    .text.chMtxTryLockS:00000000 $t
-     /tmp/ccpGg46a.s:285    .text.chMtxTryLockS:00000000 chMtxTryLockS
-     /tmp/ccpGg46a.s:339    .text.chMtxTryLockS:0000002c $d
-     /tmp/ccpGg46a.s:345    .text.chMtxTryLock:00000000 $t
-     /tmp/ccpGg46a.s:351    .text.chMtxTryLock:00000000 chMtxTryLock
-     /tmp/ccpGg46a.s:395    .text.chMtxUnlock:00000000 $t
-     /tmp/ccpGg46a.s:401    .text.chMtxUnlock:00000000 chMtxUnlock
-     /tmp/ccpGg46a.s:536    .text.chMtxUnlock:00000080 $d
-     /tmp/ccpGg46a.s:543    .text.chMtxUnlockS:00000000 $t
-     /tmp/ccpGg46a.s:549    .text.chMtxUnlockS:00000000 chMtxUnlockS
-     /tmp/ccpGg46a.s:657    .text.chMtxUnlockS:00000068 $d
-     /tmp/ccpGg46a.s:664    .text.chMtxUnlockAll:00000000 $t
-     /tmp/ccpGg46a.s:670    .text.chMtxUnlockAll:00000000 chMtxUnlockAll
-     /tmp/ccpGg46a.s:772    .text.chMtxUnlockAll:00000050 $d
-     /tmp/ccpGg46a.s:777    .rodata.str1.4:00000000 $d
+     /tmp/ccnA7dYw.s:20     .text.chMtxInit:00000000 $t
+     /tmp/ccnA7dYw.s:26     .text.chMtxInit:00000000 chMtxInit
+     /tmp/ccnA7dYw.s:62     .text.chMtxInit:00000018 $d
+     /tmp/ccnA7dYw.s:67     .text.chMtxLockS:00000000 $t
+     /tmp/ccnA7dYw.s:73     .text.chMtxLockS:00000000 chMtxLockS
+     /tmp/ccnA7dYw.s:225    .text.chMtxLockS:0000009c $d
+     /tmp/ccnA7dYw.s:233    .text.chMtxLock:00000000 $t
+     /tmp/ccnA7dYw.s:239    .text.chMtxLock:00000000 chMtxLock
+     /tmp/ccnA7dYw.s:279    .text.chMtxTryLockS:00000000 $t
+     /tmp/ccnA7dYw.s:285    .text.chMtxTryLockS:00000000 chMtxTryLockS
+     /tmp/ccnA7dYw.s:339    .text.chMtxTryLockS:0000002c $d
+     /tmp/ccnA7dYw.s:345    .text.chMtxTryLock:00000000 $t
+     /tmp/ccnA7dYw.s:351    .text.chMtxTryLock:00000000 chMtxTryLock
+     /tmp/ccnA7dYw.s:395    .text.chMtxUnlock:00000000 $t
+     /tmp/ccnA7dYw.s:401    .text.chMtxUnlock:00000000 chMtxUnlock
+     /tmp/ccnA7dYw.s:536    .text.chMtxUnlock:00000080 $d
+     /tmp/ccnA7dYw.s:543    .text.chMtxUnlockS:00000000 $t
+     /tmp/ccnA7dYw.s:549    .text.chMtxUnlockS:00000000 chMtxUnlockS
+     /tmp/ccnA7dYw.s:657    .text.chMtxUnlockS:00000068 $d
+     /tmp/ccnA7dYw.s:664    .text.chMtxUnlockAll:00000000 $t
+     /tmp/ccnA7dYw.s:670    .text.chMtxUnlockAll:00000000 chMtxUnlockAll
+     /tmp/ccnA7dYw.s:772    .text.chMtxUnlockAll:00000050 $d
+     /tmp/ccnA7dYw.s:777    .rodata.str1.4:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS

@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccUtswXC.s 			page 1
+ARM GAS  /tmp/ccmo4Ub6.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
   55              		.align	2
   56              		.p2align 4,,15
   57              		.global	chSchReadyI
-ARM GAS  /tmp/ccUtswXC.s 			page 2
+ARM GAS  /tmp/ccmo4Ub6.s 			page 2
 
 
   58              		.thumb
@@ -118,7 +118,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  112              	.LVL4:
  113              	.L5:
  114              		.loc 1 87 0 discriminator 3
-ARM GAS  /tmp/ccUtswXC.s 			page 3
+ARM GAS  /tmp/ccmo4Ub6.s 			page 3
 
 
  115 0032 0348     		ldr	r0, .L14+4
@@ -178,7 +178,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  169 0022 FFF7FEFF 		bl	chSchReadyI
  170              	.LVL9:
  171              	.L26:
-ARM GAS  /tmp/ccUtswXC.s 			page 4
+ARM GAS  /tmp/ccmo4Ub6.s 			page 4
 
 
  172              		.loc 1 165 0
@@ -238,7 +238,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  226 000a A569     		ldr	r5, [r4, #24]
  227              	.LVL15:
  228              		.loc 1 126 0
-ARM GAS  /tmp/ccUtswXC.s 			page 5
+ARM GAS  /tmp/ccmo4Ub6.s 			page 5
 
 
  229 000c 2046     		mov	r0, r4
@@ -298,7 +298,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  283              		.section	.text.chSchGoSleepTimeoutS,"ax",%progbits
  284              		.align	2
  285              		.p2align 4,,15
-ARM GAS  /tmp/ccUtswXC.s 			page 6
+ARM GAS  /tmp/ccmo4Ub6.s 			page 6
 
 
  286              		.global	chSchGoSleepTimeoutS
@@ -358,7 +358,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  340 0032 06B0     		add	sp, sp, #24
  341              		.cfi_remember_state
  342              		.cfi_def_cfa_offset 16
-ARM GAS  /tmp/ccUtswXC.s 			page 7
+ARM GAS  /tmp/ccmo4Ub6.s 			page 7
 
 
  343              		@ sp needed
@@ -418,7 +418,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  397              	.LVL30:
  398              		.loc 1 234 0
  399 000c A869     		ldr	r0, [r5, #24]
-ARM GAS  /tmp/ccUtswXC.s 			page 8
+ARM GAS  /tmp/ccmo4Ub6.s 			page 8
 
 
  400              		.loc 1 229 0
@@ -478,7 +478,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  454 0042 BDE87040 		pop	{r4, r5, r6, lr}
  455              		.cfi_remember_state
  456              		.cfi_restore 14
-ARM GAS  /tmp/ccUtswXC.s 			page 9
+ARM GAS  /tmp/ccmo4Ub6.s 			page 9
 
 
  457              		.cfi_restore 6
@@ -538,7 +538,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  511              		@ args = 0, pretend = 0, frame = 0
  512              		@ frame_needed = 0, uses_anonymous_args = 0
  513 0000 38B5     		push	{r3, r4, r5, lr}
-ARM GAS  /tmp/ccUtswXC.s 			page 10
+ARM GAS  /tmp/ccmo4Ub6.s 			page 10
 
 
  514              		.cfi_def_cfa_offset 16
@@ -598,7 +598,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  568              	.LBB14:
  569              		.loc 1 315 0 discriminator 3
  570 003a FFF7FEBF 		b	_port_switch
-ARM GAS  /tmp/ccUtswXC.s 			page 11
+ARM GAS  /tmp/ccmo4Ub6.s 			page 11
 
 
  571              	.LVL47:
@@ -658,7 +658,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  625 001e 3346     		mov	r3, r6
  626              	.LVL51:
  627              	.L56:
-ARM GAS  /tmp/ccUtswXC.s 			page 12
+ARM GAS  /tmp/ccmo4Ub6.s 			page 12
 
 
  628              		.loc 1 340 0 discriminator 1
@@ -718,7 +718,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  682              		.cfi_endproc
  683              	.LFE8:
  684              		.size	chSchDoRescheduleAhead, .-chSchDoRescheduleAhead
-ARM GAS  /tmp/ccUtswXC.s 			page 13
+ARM GAS  /tmp/ccmo4Ub6.s 			page 13
 
 
  685              		.section	.text.chSchRescheduleS,"ax",%progbits
@@ -778,7 +778,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  739              		.loc 1 362 0
  740              		.cfi_startproc
  741              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  /tmp/ccUtswXC.s 			page 14
+ARM GAS  /tmp/ccmo4Ub6.s 			page 14
 
 
  742              		@ frame_needed = 0, uses_anonymous_args = 0
@@ -838,7 +838,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  785 000c 40030000 		.4byte	.LASF98
  786 0010 0C       		.byte	0xc
  787 0011 B6000000 		.4byte	.LASF99
-ARM GAS  /tmp/ccUtswXC.s 			page 15
+ARM GAS  /tmp/ccmo4Ub6.s 			page 15
 
 
  788 0015 55040000 		.4byte	.LASF100
@@ -898,7 +898,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  842 0081 85000000 		.4byte	0x85
  843 0085 03       		.uleb128 0x3
  844 0086 04       		.byte	0x4
-ARM GAS  /tmp/ccUtswXC.s 			page 16
+ARM GAS  /tmp/ccmo4Ub6.s 			page 16
 
 
  845 0087 07       		.byte	0x7
@@ -958,7 +958,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  899 00f9 A9000000 		.4byte	0xa9
  900 00fd 04       		.uleb128 0x4
  901 00fe 08020000 		.4byte	.LASF23
-ARM GAS  /tmp/ccUtswXC.s 			page 17
+ARM GAS  /tmp/ccmo4Ub6.s 			page 17
 
 
  902 0102 04       		.byte	0x4
@@ -1018,7 +1018,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  956 0171 06       		.uleb128 0x6
  957 0172 6B020000 		.4byte	.LASF32
  958 0176 06       		.byte	0x6
-ARM GAS  /tmp/ccUtswXC.s 			page 18
+ARM GAS  /tmp/ccmo4Ub6.s 			page 18
 
 
  959 0177 67       		.byte	0x67
@@ -1078,7 +1078,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1013 01e3 C3       		.byte	0xc3
  1014 01e4 F2000000 		.4byte	0xf2
  1015 01e8 38       		.byte	0x38
-ARM GAS  /tmp/ccUtswXC.s 			page 19
+ARM GAS  /tmp/ccmo4Ub6.s 			page 19
 
 
  1016 01e9 06       		.uleb128 0x6
@@ -1138,7 +1138,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1070 024f 2F020000 		.4byte	0x22f
  1071 0253 00       		.byte	0
  1072 0254 00       		.byte	0
-ARM GAS  /tmp/ccUtswXC.s 			page 20
+ARM GAS  /tmp/ccmo4Ub6.s 			page 20
 
 
  1073 0255 04       		.uleb128 0x4
@@ -1198,7 +1198,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1127 02c2 723900   		.ascii	"r9\000"
  1128 02c5 07       		.byte	0x7
  1129 02c6 2401     		.2byte	0x124
-ARM GAS  /tmp/ccUtswXC.s 			page 21
+ARM GAS  /tmp/ccmo4Ub6.s 			page 21
 
 
  1130 02c8 60020000 		.4byte	0x260
@@ -1258,7 +1258,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1184 0338 04       		.uleb128 0x4
  1185 0339 2B040000 		.4byte	.LASF52
  1186 033d 08       		.byte	0x8
-ARM GAS  /tmp/ccUtswXC.s 			page 22
+ARM GAS  /tmp/ccmo4Ub6.s 			page 22
 
 
  1187 033e 5D       		.byte	0x5d
@@ -1318,7 +1318,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1241 03aa 00       		.byte	0
  1242 03ab 06       		.uleb128 0x6
  1243 03ac F8020000 		.4byte	.LASF59
-ARM GAS  /tmp/ccUtswXC.s 			page 23
+ARM GAS  /tmp/ccmo4Ub6.s 			page 23
 
 
  1244 03b0 09       		.byte	0x9
@@ -1378,7 +1378,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1298 0419 DF040000 		.4byte	.LASF65
  1299 041d 0A       		.byte	0xa
  1300 041e 30       		.byte	0x30
-ARM GAS  /tmp/ccUtswXC.s 			page 24
+ARM GAS  /tmp/ccmo4Ub6.s 			page 24
 
 
  1301 041f F3030000 		.4byte	0x3f3
@@ -1438,7 +1438,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1355 048e 11       		.uleb128 0x11
  1356 048f FF020000 		.4byte	.LASF75
  1357 0493 06       		.byte	0x6
-ARM GAS  /tmp/ccUtswXC.s 			page 25
+ARM GAS  /tmp/ccmo4Ub6.s 			page 25
 
 
  1358 0494 B2       		.byte	0xb2
@@ -1498,7 +1498,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1412 0510 19       		.uleb128 0x19
  1413 0511 01       		.uleb128 0x1
  1414 0512 50       		.byte	0x50
-ARM GAS  /tmp/ccUtswXC.s 			page 26
+ARM GAS  /tmp/ccmo4Ub6.s 			page 26
 
 
  1415 0513 05       		.uleb128 0x5
@@ -1558,7 +1558,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1469 0582 1C       		.uleb128 0x1c
  1470 0583 27030000 		.4byte	.LASF81
  1471 0587 01       		.byte	0x1
-ARM GAS  /tmp/ccUtswXC.s 			page 27
+ARM GAS  /tmp/ccmo4Ub6.s 			page 27
 
 
  1472 0588 73       		.byte	0x73
@@ -1618,7 +1618,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1526 0606 74       		.byte	0x74
  1527 0607 00       		.sleb128 0
  1528 0608 00       		.byte	0
-ARM GAS  /tmp/ccUtswXC.s 			page 28
+ARM GAS  /tmp/ccmo4Ub6.s 			page 28
 
 
  1529 0609 18       		.uleb128 0x18
@@ -1678,7 +1678,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1583 067d 5C       		.sleb128 -36
  1584 067e 19       		.uleb128 0x19
  1585 067f 01       		.uleb128 0x1
-ARM GAS  /tmp/ccUtswXC.s 			page 29
+ARM GAS  /tmp/ccmo4Ub6.s 			page 29
 
 
  1586 0680 51       		.byte	0x51
@@ -1738,7 +1738,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1640 06dd 9C       		.byte	0x9c
  1641 06de A1070000 		.4byte	0x7a1
  1642 06e2 15       		.uleb128 0x15
-ARM GAS  /tmp/ccUtswXC.s 			page 30
+ARM GAS  /tmp/ccmo4Ub6.s 			page 30
 
 
  1643 06e3 6E747000 		.ascii	"ntp\000"
@@ -1798,7 +1798,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1697 075b 5C000000 		.4byte	.LVL40
  1698 075f 5A090000 		.4byte	0x95a
  1699 0763 19       		.uleb128 0x19
-ARM GAS  /tmp/ccUtswXC.s 			page 31
+ARM GAS  /tmp/ccmo4Ub6.s 			page 31
 
 
  1700 0764 01       		.uleb128 0x1
@@ -1858,7 +1858,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1754 07cc FF070000 		.4byte	0x7ff
  1755 07d0 26       		.uleb128 0x26
  1756 07d1 72313300 		.ascii	"r13\000"
-ARM GAS  /tmp/ccUtswXC.s 			page 32
+ARM GAS  /tmp/ccmo4Ub6.s 			page 32
 
 
  1757 07d5 01       		.byte	0x1
@@ -1918,7 +1918,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1811 0839 22000000 		.4byte	.LASF84
  1812 083d 01       		.byte	0x1
  1813 083e 4901     		.2byte	0x149
-ARM GAS  /tmp/ccUtswXC.s 			page 33
+ARM GAS  /tmp/ccmo4Ub6.s 			page 33
 
 
  1814 0840 00000000 		.4byte	.LFB8
@@ -1978,7 +1978,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1868 08ba 38000000 		.4byte	.LVL53
  1869 08be 7C090000 		.4byte	0x97c
  1870 08c2 19       		.uleb128 0x19
-ARM GAS  /tmp/ccUtswXC.s 			page 34
+ARM GAS  /tmp/ccmo4Ub6.s 			page 34
 
 
  1871 08c3 01       		.uleb128 0x1
@@ -2038,7 +2038,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1925 0939 28       		.uleb128 0x28
  1926 093a 08050000 		.4byte	.LASF89
  1927 093e 08050000 		.4byte	.LASF89
-ARM GAS  /tmp/ccUtswXC.s 			page 35
+ARM GAS  /tmp/ccmo4Ub6.s 			page 35
 
 
  1928 0942 0C       		.byte	0xc
@@ -2098,7 +2098,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  1982 0009 1B       		.uleb128 0x1b
  1983 000a 0E       		.uleb128 0xe
  1984 000b 55       		.uleb128 0x55
-ARM GAS  /tmp/ccUtswXC.s 			page 36
+ARM GAS  /tmp/ccmo4Ub6.s 			page 36
 
 
  1985 000c 17       		.uleb128 0x17
@@ -2158,7 +2158,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2039 0042 13       		.uleb128 0x13
  2040 0043 00       		.byte	0
  2041 0044 00       		.byte	0
-ARM GAS  /tmp/ccUtswXC.s 			page 37
+ARM GAS  /tmp/ccmo4Ub6.s 			page 37
 
 
  2042 0045 06       		.uleb128 0x6
@@ -2218,7 +2218,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2096 007b 00       		.byte	0
  2097 007c 0B       		.uleb128 0xb
  2098 007d 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccUtswXC.s 			page 38
+ARM GAS  /tmp/ccmo4Ub6.s 			page 38
 
 
  2099 007e 00       		.byte	0
@@ -2278,7 +2278,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2153 00b4 00       		.byte	0
  2154 00b5 10       		.uleb128 0x10
  2155 00b6 17       		.uleb128 0x17
-ARM GAS  /tmp/ccUtswXC.s 			page 39
+ARM GAS  /tmp/ccmo4Ub6.s 			page 39
 
 
  2156 00b7 01       		.byte	0x1
@@ -2338,7 +2338,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2210 00ee 14       		.uleb128 0x14
  2211 00ef 2E       		.uleb128 0x2e
  2212 00f0 01       		.byte	0x1
-ARM GAS  /tmp/ccUtswXC.s 			page 40
+ARM GAS  /tmp/ccmo4Ub6.s 			page 40
 
 
  2213 00f1 3F       		.uleb128 0x3f
@@ -2398,7 +2398,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2267 0128 17       		.uleb128 0x17
  2268 0129 898201   		.uleb128 0x4109
  2269 012c 00       		.byte	0
-ARM GAS  /tmp/ccUtswXC.s 			page 41
+ARM GAS  /tmp/ccmo4Ub6.s 			page 41
 
 
  2270 012d 11       		.uleb128 0x11
@@ -2458,7 +2458,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2324 016b 01       		.uleb128 0x1
  2325 016c 13       		.uleb128 0x13
  2326 016d 00       		.byte	0
-ARM GAS  /tmp/ccUtswXC.s 			page 42
+ARM GAS  /tmp/ccmo4Ub6.s 			page 42
 
 
  2327 016e 00       		.byte	0
@@ -2518,7 +2518,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2381 01a5 08       		.uleb128 0x8
  2382 01a6 3A       		.uleb128 0x3a
  2383 01a7 0B       		.uleb128 0xb
-ARM GAS  /tmp/ccUtswXC.s 			page 43
+ARM GAS  /tmp/ccmo4Ub6.s 			page 43
 
 
  2384 01a8 3B       		.uleb128 0x3b
@@ -2578,7 +2578,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2438 01e7 24       		.uleb128 0x24
  2439 01e8 2E       		.uleb128 0x2e
  2440 01e9 01       		.byte	0x1
-ARM GAS  /tmp/ccUtswXC.s 			page 44
+ARM GAS  /tmp/ccmo4Ub6.s 			page 44
 
 
  2441 01ea 3F       		.uleb128 0x3f
@@ -2638,7 +2638,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2495 0221 00       		.byte	0
  2496 0222 03       		.uleb128 0x3
  2497 0223 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccUtswXC.s 			page 45
+ARM GAS  /tmp/ccmo4Ub6.s 			page 45
 
 
  2498 0224 3A       		.uleb128 0x3a
@@ -2698,7 +2698,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2552 000b 07000000 		.4byte	.LVL1-1
  2553 000f 44000000 		.4byte	.LFE1
  2554 0013 0100     		.2byte	0x1
-ARM GAS  /tmp/ccUtswXC.s 			page 46
+ARM GAS  /tmp/ccmo4Ub6.s 			page 46
 
 
  2555 0015 54       		.byte	0x54
@@ -2758,7 +2758,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2609 00a3 51       		.byte	0x51
  2610 00a4 00000000 		.4byte	0
  2611 00a8 00000000 		.4byte	0
-ARM GAS  /tmp/ccUtswXC.s 			page 47
+ARM GAS  /tmp/ccmo4Ub6.s 			page 47
 
 
  2612              	.LLST6:
@@ -2818,7 +2818,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2666 0130 0100     		.2byte	0x1
  2667 0132 54       		.byte	0x54
  2668 0133 46000000 		.4byte	.LVL36
-ARM GAS  /tmp/ccUtswXC.s 			page 48
+ARM GAS  /tmp/ccmo4Ub6.s 			page 48
 
 
  2669 0137 49000000 		.4byte	.LVL37-1
@@ -2878,7 +2878,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2723 01bb 0400     		.2byte	0x4
  2724 01bd F3       		.byte	0xf3
  2725 01be 01       		.uleb128 0x1
-ARM GAS  /tmp/ccUtswXC.s 			page 49
+ARM GAS  /tmp/ccmo4Ub6.s 			page 49
 
 
  2726 01bf 51       		.byte	0x51
@@ -2938,7 +2938,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2780 024f 00000000 		.4byte	rlist
  2781 0253 9F       		.byte	0x9f
  2782 0254 20000000 		.4byte	.LVL51
-ARM GAS  /tmp/ccUtswXC.s 			page 50
+ARM GAS  /tmp/ccmo4Ub6.s 			page 50
 
 
  2783 0258 37000000 		.4byte	.LVL53-1
@@ -2998,7 +2998,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2837 0044 38000000 		.4byte	.LBE6
  2838 0048 3C000000 		.4byte	.LBB7
  2839 004c 40000000 		.4byte	.LBE7
-ARM GAS  /tmp/ccUtswXC.s 			page 51
+ARM GAS  /tmp/ccmo4Ub6.s 			page 51
 
 
  2840 0050 4A000000 		.4byte	.LBB8
@@ -3058,7 +3058,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2887              	.LASF56:
  2888 0011 76745F66 		.ascii	"vt_func\000"
  2888      756E6300 
-ARM GAS  /tmp/ccUtswXC.s 			page 52
+ARM GAS  /tmp/ccmo4Ub6.s 			page 52
 
 
  2889              	.LASF17:
@@ -3118,7 +3118,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2912      6B65726E 
  2912      656C2F73 
  2913              	.LASF9:
-ARM GAS  /tmp/ccUtswXC.s 			page 53
+ARM GAS  /tmp/ccmo4Ub6.s 			page 53
 
 
  2914 00d6 6C6F6E67 		.ascii	"long int\000"
@@ -3178,7 +3178,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2941              	.LASF95:
  2942 0164 6462675F 		.ascii	"dbg_trace\000"
  2942      74726163 
-ARM GAS  /tmp/ccUtswXC.s 			page 54
+ARM GAS  /tmp/ccmo4Ub6.s 			page 54
 
 
  2942      6500
@@ -3238,7 +3238,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2967              	.LASF45:
  2968 01fc 54687265 		.ascii	"ThreadsList\000"
  2968      6164734C 
-ARM GAS  /tmp/ccUtswXC.s 			page 55
+ARM GAS  /tmp/ccmo4Ub6.s 			page 55
 
 
  2968      69737400 
@@ -3298,7 +3298,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  2997              	.LASF62:
  2998 0295 725F6F6C 		.ascii	"r_older\000"
  2998      64657200 
-ARM GAS  /tmp/ccUtswXC.s 			page 56
+ARM GAS  /tmp/ccmo4Ub6.s 			page 56
 
 
  2999              	.LASF12:
@@ -3358,7 +3358,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  3030      744900
  3031              	.LASF81:
  3032 0327 63685363 		.ascii	"chSchGoSleepS\000"
-ARM GAS  /tmp/ccUtswXC.s 			page 57
+ARM GAS  /tmp/ccmo4Ub6.s 			page 57
 
 
  3032      68476F53 
@@ -3418,7 +3418,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  3052      64794900 
  3053              	.LASF100:
  3054 0455 2F686F6D 		.ascii	"/home/z80/projects/stm32f238.git/firmware/testhal/S"
-ARM GAS  /tmp/ccUtswXC.s 			page 58
+ARM GAS  /tmp/ccmo4Ub6.s 			page 58
 
 
  3054      652F7A38 
@@ -3478,7 +3478,7 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  3082              	.LASF89:
  3083 0508 6462675F 		.ascii	"dbg_check_lock_from_isr\000"
  3083      63686563 
-ARM GAS  /tmp/ccUtswXC.s 			page 59
+ARM GAS  /tmp/ccmo4Ub6.s 			page 59
 
 
  3083      6B5F6C6F 
@@ -3507,42 +3507,42 @@ ARM GAS  /tmp/ccUtswXC.s 			page 1
  3095      6974696E 
  3095      6700
  3096              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.2.1 20151202 (release) [ARM/embedded-5-bran
-ARM GAS  /tmp/ccUtswXC.s 			page 60
+ARM GAS  /tmp/ccmo4Ub6.s 			page 60
 
 
 DEFINED SYMBOLS
                             *ABS*:00000000 chschd.c
-     /tmp/ccUtswXC.s:20     .text._scheduler_init:00000000 $t
-     /tmp/ccUtswXC.s:26     .text._scheduler_init:00000000 _scheduler_init
-     /tmp/ccUtswXC.s:50     .text._scheduler_init:00000010 $d
-     /tmp/ccUtswXC.s:55     .text.chSchReadyI:00000000 $t
-     /tmp/ccUtswXC.s:61     .text.chSchReadyI:00000000 chSchReadyI
-     /tmp/ccUtswXC.s:122    .text.chSchReadyI:0000003c $d
-     /tmp/ccUtswXC.s:128    .text.wakeup:00000000 $t
-     /tmp/ccUtswXC.s:133    .text.wakeup:00000000 wakeup
-     /tmp/ccUtswXC.s:199    .text.chSchGoSleepS:00000000 $t
-     /tmp/ccUtswXC.s:205    .text.chSchGoSleepS:00000000 chSchGoSleepS
-     /tmp/ccUtswXC.s:277    .text.chSchGoSleepS:00000044 $d
-     /tmp/ccUtswXC.s:284    .text.chSchGoSleepTimeoutS:00000000 $t
-     /tmp/ccUtswXC.s:290    .text.chSchGoSleepTimeoutS:00000000 chSchGoSleepTimeoutS
-     /tmp/ccUtswXC.s:365    .text.chSchGoSleepTimeoutS:00000048 $d
-     /tmp/ccUtswXC.s:371    .text.chSchWakeupS:00000000 $t
-     /tmp/ccUtswXC.s:377    .text.chSchWakeupS:00000000 chSchWakeupS
-     /tmp/ccUtswXC.s:493    .text.chSchWakeupS:0000005c $d
-     /tmp/ccUtswXC.s:501    .text.chSchDoRescheduleBehind:00000000 $t
-     /tmp/ccUtswXC.s:507    .text.chSchDoRescheduleBehind:00000000 chSchDoRescheduleBehind
-     /tmp/ccUtswXC.s:575    .text.chSchDoRescheduleBehind:00000040 $d
-     /tmp/ccUtswXC.s:582    .text.chSchDoRescheduleAhead:00000000 $t
-     /tmp/ccUtswXC.s:588    .text.chSchDoRescheduleAhead:00000000 chSchDoRescheduleAhead
-     /tmp/ccUtswXC.s:679    .text.chSchDoRescheduleAhead:00000054 $d
-     /tmp/ccUtswXC.s:686    .text.chSchRescheduleS:00000000 $t
-     /tmp/ccUtswXC.s:692    .text.chSchRescheduleS:00000000 chSchRescheduleS
-     /tmp/ccUtswXC.s:726    .text.chSchRescheduleS:00000020 $d
-     /tmp/ccUtswXC.s:731    .text.chSchDoReschedule:00000000 $t
-     /tmp/ccUtswXC.s:737    .text.chSchDoReschedule:00000000 chSchDoReschedule
-     /tmp/ccUtswXC.s:763    .bss.rlist:00000000 rlist
-     /tmp/ccUtswXC.s:752    .rodata.str1.4:00000000 $d
-     /tmp/ccUtswXC.s:759    .bss.rlist:00000000 $d
+     /tmp/ccmo4Ub6.s:20     .text._scheduler_init:00000000 $t
+     /tmp/ccmo4Ub6.s:26     .text._scheduler_init:00000000 _scheduler_init
+     /tmp/ccmo4Ub6.s:50     .text._scheduler_init:00000010 $d
+     /tmp/ccmo4Ub6.s:55     .text.chSchReadyI:00000000 $t
+     /tmp/ccmo4Ub6.s:61     .text.chSchReadyI:00000000 chSchReadyI
+     /tmp/ccmo4Ub6.s:122    .text.chSchReadyI:0000003c $d
+     /tmp/ccmo4Ub6.s:128    .text.wakeup:00000000 $t
+     /tmp/ccmo4Ub6.s:133    .text.wakeup:00000000 wakeup
+     /tmp/ccmo4Ub6.s:199    .text.chSchGoSleepS:00000000 $t
+     /tmp/ccmo4Ub6.s:205    .text.chSchGoSleepS:00000000 chSchGoSleepS
+     /tmp/ccmo4Ub6.s:277    .text.chSchGoSleepS:00000044 $d
+     /tmp/ccmo4Ub6.s:284    .text.chSchGoSleepTimeoutS:00000000 $t
+     /tmp/ccmo4Ub6.s:290    .text.chSchGoSleepTimeoutS:00000000 chSchGoSleepTimeoutS
+     /tmp/ccmo4Ub6.s:365    .text.chSchGoSleepTimeoutS:00000048 $d
+     /tmp/ccmo4Ub6.s:371    .text.chSchWakeupS:00000000 $t
+     /tmp/ccmo4Ub6.s:377    .text.chSchWakeupS:00000000 chSchWakeupS
+     /tmp/ccmo4Ub6.s:493    .text.chSchWakeupS:0000005c $d
+     /tmp/ccmo4Ub6.s:501    .text.chSchDoRescheduleBehind:00000000 $t
+     /tmp/ccmo4Ub6.s:507    .text.chSchDoRescheduleBehind:00000000 chSchDoRescheduleBehind
+     /tmp/ccmo4Ub6.s:575    .text.chSchDoRescheduleBehind:00000040 $d
+     /tmp/ccmo4Ub6.s:582    .text.chSchDoRescheduleAhead:00000000 $t
+     /tmp/ccmo4Ub6.s:588    .text.chSchDoRescheduleAhead:00000000 chSchDoRescheduleAhead
+     /tmp/ccmo4Ub6.s:679    .text.chSchDoRescheduleAhead:00000054 $d
+     /tmp/ccmo4Ub6.s:686    .text.chSchRescheduleS:00000000 $t
+     /tmp/ccmo4Ub6.s:692    .text.chSchRescheduleS:00000000 chSchRescheduleS
+     /tmp/ccmo4Ub6.s:726    .text.chSchRescheduleS:00000020 $d
+     /tmp/ccmo4Ub6.s:731    .text.chSchDoReschedule:00000000 $t
+     /tmp/ccmo4Ub6.s:737    .text.chSchDoReschedule:00000000 chSchDoReschedule
+     /tmp/ccmo4Ub6.s:763    .bss.rlist:00000000 rlist
+     /tmp/ccmo4Ub6.s:752    .rodata.str1.4:00000000 $d
+     /tmp/ccmo4Ub6.s:759    .bss.rlist:00000000 $d
                      .debug_frame:00000010 $d
 
 UNDEFINED SYMBOLS
