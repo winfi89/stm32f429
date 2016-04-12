@@ -111,8 +111,6 @@ int main(void)
   uartInit();
   
   printf( "Initializing SDRAM\r\n" );
-  while ( 1 )
-	  printf( "Hello World!\r\n" );
 
   /*##-1- Configure the SDRAM device #########################################*/
   /* SDRAM device configuration */ 

@@ -1,6 +1,6 @@
-07:37:11 **** Incremental Build of configuration Debug for project bootloader ****
+08:35:53 **** Incremental Build of configuration Debug for project bootloader ****
 make all 
 make: Nothing to be done for `all'.
 
-07:37:12 Build Finished (took 283ms)
+08:35:54 Build Finished (took 178ms)
 
